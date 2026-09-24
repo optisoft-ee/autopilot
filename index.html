@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DayOne — uus seade karbist võttes kohe tööks valmis</title>
+<meta name="description" content="DayOne automatiseerib arvutite, iPadide ja telefonide kasutuselevõtu Microsoft Intune'i ja Windows Autopiloti abil. Vähem tehniku käsitööd, prognoositav kuutasu seadme kohta.">
+<link rel="canonical" href="https://autopilot.ee/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="et_EE">
+<meta property="og:title" content="DayOne — uus seade karbist võttes kohe tööks valmis">
+<meta property="og:description" content="Seadmete kasutuselevõtu automatiseerimine 50–500 töötajaga ettevõtetele. Fikseeritud kuutasu seadme kohta.">
+<meta property="og:url" content="https://autopilot.ee/">
+<meta name="theme-color" content="#15191E">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"DayOne","url":"https://autopilot.ee/","email":"hello@autopilot.ee","description":"Seadmete kasutuselevõtu automatiseerimine Microsoft Intune'i ja Windows Autopiloti abil.","areaServed":"EE","parentOrganization":{"@type":"Organization","name":"OptiSoft OÜ"}}
+</script>
+<style>
+:root{
+  --ground:#F5F3EF; --surface:#FFFFFF; --ink:#15191E; --ink-2:#3A4148; --muted:#5B636B;
+  --line:#E2DED6; --line-2:#EEEBE5; --accent:#0B6B68; --accent-soft:#E3F1EF; --accent-tint:#EEF6F5;
+  --dark:#15191E; --dark-2:#0F1216; --on-dark:#C9CED3; --on-dark-muted:#A9B0B7; --mint:#7FD1C7;
+  --display:'Space Grotesk',system-ui,sans-serif; --body:'IBM Plex Sans',system-ui,sans-serif;
+  --pad:clamp(20px,6.5vw,96px); --sec:clamp(64px,8vw,104px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+h1,h2,h3{font-family:var(--display);margin:0;letter-spacing:-.02em}
+p{margin:0}
+.wrap{max-width:1440px;margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+.sec{padding-top:var(--sec);padding-bottom:var(--sec)}
+.eyebrow{font-size:14px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+.h2{font-size:clamp(32px,4vw,48px);line-height:1.08;font-weight:700}
+.head{display:flex;flex-direction:column;gap:16px;max-width:820px;margin-bottom:clamp(36px,4vw,56px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:0 26px;border-radius:10px;font-weight:600;font-size:17px;text-decoration:none;transition:background .15s,color .15s}
+.btn-primary{background:var(--accent);color:#fff}.btn-primary:hover{background:#084848}
+.btn-ghost{border:1.5px solid var(--ink);color:var(--ink)}.btn-ghost:hover{background:var(--ink);color:#fff}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:10;background:rgba(245,243,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;min-height:76px;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--ink);font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.02em}
+.nav nav{display:flex;align-items:center;gap:32px;font-size:16px}
+.nav nav a{color:var(--ink-2);text-decoration:none}.nav nav a:hover{color:var(--ink)}
+.nav nav a.cta{display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:8px;background:var(--ink);color:#fff;font-weight:500}
+.nav nav a.cta:hover{background:#2A3038}
+.nav nav a.cta .short{display:none}
+
+/* hero */
+.hero{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(40px,5.5vw,80px);align-items:center;padding-top:clamp(56px,7vw,104px);padding-bottom:clamp(64px,8vw,112px)}
+.hero-copy{display:flex;flex-direction:column;gap:28px}
+.hero h1{font-size:clamp(42px,5.2vw,68px);line-height:1.02;font-weight:700;letter-spacing:-.025em}
+.hero .lead{font-size:clamp(18px,1.5vw,20px);line-height:1.55;color:var(--ink-2);max-width:580px}
+.actions{display:flex;flex-wrap:wrap;gap:16px;padding-top:8px}
+.under{font-size:15px;color:var(--muted)}
+.journey{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:clamp(24px,2.5vw,36px);display:flex;flex-direction:column;gap:8px;box-shadow:0 24px 48px -28px rgba(21,25,30,.25)}
+.journey-head{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-bottom:16px;border-bottom:1px solid var(--line-2)}
+.journey-head strong{font-family:var(--display);font-weight:600;font-size:18px}
+.journey-head span{font-size:14px;color:var(--muted)}
+.step{display:flex;gap:18px;align-items:flex-start;padding:18px 0}
+.dot{flex-shrink:0;width:40px;height:40px;border-radius:50%;background:var(--accent-soft);display:flex;align-items:center;justify-content:center}
+.step b{display:block;font-weight:600;font-size:17px;line-height:1.4}
+.step small{display:block;font-size:15px;color:var(--muted);line-height:1.45;margin-top:4px}
+.done{display:flex;gap:18px;align-items:center;padding:20px;margin-top:8px;border-radius:12px;background:var(--dark);color:#fff}
+.done .dot{background:var(--accent)}
+.done small{display:block;font-size:15px;color:var(--on-dark)}
+
+/* results */
+.results{background:var(--dark);color:#fff}
+.results .top{display:flex;justify-content:space-between;align-items:flex-end;gap:48px;margin-bottom:48px}
+.results .eyebrow{color:var(--mint)}
+.results h2{font-size:clamp(30px,3.6vw,44px);line-height:1.08;font-weight:700;margin-top:16px;max-width:760px}
+.results .note{max-width:360px;font-size:15px;line-height:1.55;color:var(--on-dark-muted)}
+.stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.stat{display:flex;flex-direction:column;gap:12px;padding:28px;border-radius:16px;border:1px solid #2C333A}
+.stat .k{font-size:15px;color:var(--on-dark-muted)}
+.stat .v{font-family:var(--display);font-size:clamp(32px,3vw,40px);font-weight:700;color:var(--mint);line-height:1.1}
+.stat .was{font-size:15px;color:var(--on-dark)}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.card{display:flex;flex-direction:column;gap:16px;padding:32px;border-radius:16px;background:var(--surface);border:1px solid var(--line)}
+.card h3{font-size:24px;font-weight:600;line-height:1.2}
+.card p{color:var(--ink-2)}
+
+/* compare */
+.white{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.compare{width:100%;border-collapse:collapse}
+.compare th{text-align:left;padding:16px 24px;font-size:14px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);border-bottom:2px solid var(--ink)}
+.compare th:first-child{padding-left:0;width:28%}
+.compare th.to{color:var(--accent);background:var(--accent-tint);border-bottom-color:var(--accent)}
+.compare td{padding:20px 24px;border-bottom:1px solid var(--line-2);vertical-align:top}
+.compare td:first-child{padding-left:0;font-weight:600}
+.compare td.as{color:var(--ink-2)}
+.compare td.to{font-weight:500;background:var(--accent-tint);border-bottom-color:#DCEBE9}
+.compare tr:last-child td{border-bottom:none}
+
+/* process */
+.steps{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.steps li{display:flex;flex-direction:column;gap:14px;padding-top:24px;border-top:2px solid var(--ink)}
+.steps .n{font-family:var(--display);font-size:40px;font-weight:700;color:var(--accent);line-height:1}
+.steps h3{font-size:22px;font-weight:600}
+.steps p{font-size:16px;color:var(--ink-2)}
+.callout{display:flex;gap:24px;align-items:flex-start;margin-top:48px;padding:32px 36px;border-radius:16px;background:var(--surface);border:1px solid var(--line)}
+.callout svg{flex-shrink:0}
+.callout h3{font-size:22px;font-weight:600;margin-bottom:8px}
+.callout p{color:var(--ink-2);max-width:1000px}
+
+/* who / pricing */
+.trio{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}
+.trio > div{display:flex;flex-direction:column;gap:16px}
+.trio h3{font-size:clamp(24px,2.2vw,30px);font-weight:700;line-height:1.15;letter-spacing:-.01em}
+.trio p{color:var(--ink-2)}
+
+/* contact */
+.contact{background:var(--dark);color:#fff}
+.contact .eyebrow{color:var(--mint)}
+.contact h2{font-size:clamp(36px,4.4vw,56px);line-height:1.05;font-weight:700;margin:20px 0}
+.contact .lead{font-size:19px;color:var(--on-dark);max-width:820px}
+.mailcard{display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;margin-top:48px;padding:clamp(24px,3vw,40px);border-radius:16px;background:var(--accent);color:#fff;text-decoration:none;transition:background .15s}
+.mailcard:hover{background:#095957}
+.mailcard .l{display:flex;align-items:center;gap:20px}
+.mailcard small{display:block;font-size:15px;color:#D5EEEA}
+.mailcard strong{display:block;font-family:var(--display);font-size:clamp(24px,3vw,34px);font-weight:600;letter-spacing:-.01em;overflow-wrap:anywhere}
+.mailcard .go{font-family:var(--display);font-weight:600;font-size:18px;white-space:nowrap}
+.contact .fine{margin-top:24px;font-size:14px;color:#8A929A}
+footer{background:var(--dark-2);color:var(--on-dark-muted);font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding-top:32px;padding-bottom:32px}
+
+/* responsive */
+@media (max-width:1100px){
+  .nav nav a:not(.cta){display:none}
+  .hero{grid-template-columns:minmax(0,1fr)}
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .steps{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:40px}
+  .results .top{flex-direction:column;align-items:flex-start;gap:20px}
+}
+@media (max-width:860px){
+  .cards,.trio{grid-template-columns:minmax(0,1fr);gap:20px}
+  .compare thead{display:none}
+  .compare,.compare tbody,.compare tr,.compare td{display:block;width:100%}
+  .compare tr{padding:20px 0;border-bottom:1px solid var(--line-2)}
+  .compare tr:last-child{border-bottom:none}
+  .compare td{padding:0;border:none;background:none}
+  .compare td:first-child{font-family:var(--display);font-size:19px;margin-bottom:10px}
+  .compare td.as,.compare td.to{padding:12px 16px;border-radius:10px}
+  .compare td.as{background:var(--ground);margin-bottom:8px}
+  .compare td.to{background:var(--accent-tint)}
+  .compare td.as::before{content:"Täna: ";font-weight:600;color:var(--muted)}
+  .compare td.to::before{content:"DayOne'iga: ";font-weight:600;color:var(--accent)}
+  .callout{flex-direction:column;padding:24px}
+}
+@media (max-width:560px){
+  body{font-size:16px}
+  .stats,.steps{grid-template-columns:minmax(0,1fr)}
+  .nav .wrap{min-height:64px}
+  .nav nav a.cta{padding:0 14px;font-size:15px;white-space:nowrap}
+  .nav nav a.cta .long{display:none}
+  .nav nav a.cta .short{display:inline}
+  .mailcard strong{font-size:22px}
+  .actions .btn{width:100%}
+  .journey-head span{display:none}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="DayOne avalehele">
+      <svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><rect x="1" y="1" width="28" height="28" rx="8" fill="#0B6B68"/><path d="M9 15.5l4 4 8-9" fill="none" stroke="#fff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      DayOne
+    </a>
+    <nav aria-label="Peamenüü">
+      <a href="#tulemus">Tulemus</a>
+      <a href="#enne-parast">Enne ja pärast</a>
+      <a href="#protsess">Kuidas käib</a>
+      <a href="#hinnamudel">Hinnamudel</a>
+      <a class="cta" href="#kontakt"><span class="long">Küsi konsultatsiooni</span><span class="short">Kontakt</span></a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="top" class="wrap hero">
+  <div class="hero-copy">
+    <div class="eyebrow">Seadmete kasutuselevõtu automatiseerimine</div>
+    <h1>Uus arvuti on<br>karbist võttes<br>kohe tööks valmis.</h1>
+    <p class="lead">DayOne annab teie IT-le tagasi aja ja prognoositavuse. Arvuti, iPad või telefon liigub tootjalt otse töötajani ja seadistub ise — tehniku laua kaudu ei käi midagi.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="mailto:hello@autopilot.ee?subject=DayOne%20konsultatsioon&amp;body=Tere%21%0D%0A%0D%0ASoovin%20DayOne%20konsultatsiooni.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A">Küsi konsultatsiooni</a>
+      <a class="btn btn-ghost" href="#enne-parast">Vaata, mis muutub</a>
+    </div>
+    <p class="under">Kapoti all: Microsoft Intune, Windows Autopilot, Apple Business Manager.</p>
+  </div>
+
+  <div class="journey" aria-label="Seadme teekond DayOne'iga">
+    <div class="journey-head"><strong>Seadme teekond DayOne'iga</strong><span>tootjalt töötajani</span></div>
+    <div class="step">
+      <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/></svg></div>
+      <div><b>Tootja saadab seadme otse töötajale</b><small>Seade on juba teie ettevõtte nimele registreeritud.</small></div>
+    </div>
+    <div class="step">
+      <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
+      <div><b>Töötaja logib sisse tööpostiga</b><small>Rohkem ta teadma ei pea.</small></div>
+    </div>
+    <div class="step">
+      <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
+      <div><b>Profiil paigaldab rakendused ja turvasätted</b><small>Iga seade saab sama profiili, alati samamoodi.</small></div>
+    </div>
+    <div class="done">
+      <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div>
+      <div><b>Esimesest tööpäevast valmis.</b><small>Tehnik kontrollib, mitte ei seadista.</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="tulemus" class="results sec">
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="eyebrow">Meie piloodi tulemus</div>
+        <h2>Müüme võidetud aega, mitte tehnoloogiat.</h2>
+      </div>
+      <p class="note">Indikatiivsed näitajad ühest pilootjuurutusest ja 81 pöördumise analüüsist. Ei ole garantii — teie baasjoone mõõdame piloodi esimesel kuul.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><span class="k">Arvuti ettevalmistus</span><span class="v">~30 min</span><span class="was">varem 2–4 h</span></div>
+      <div class="stat"><span class="k">Kasutuselevõtu läbivusaeg</span><span class="v">2–3 päeva</span><span class="was">varem ~9,7 päeva</span></div>
+      <div class="stat"><span class="k">Eluea lõpu puhastus</span><span class="v">~15 min</span><span class="was">varem 1–2 h käsitsi</span></div>
+      <div class="stat"><span class="k">Vastavuskontroll</span><span class="v">100%</span><span class="was">seadmetest automaatselt, reaalajas</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap sec">
+  <div class="head">
+    <div class="eyebrow">Mida see teile annab</div>
+    <h2 class="h2">Töötaja saab kohe tööle asuda.<br>IT ei pea liigselt sekkuma.</h2>
+  </div>
+  <div class="cards">
+    <div class="card">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+      <h3>Tehnikute aeg väärtuslikumale tööle</h3>
+      <p>Seadistamine on tsentraalne ja automaatne. Tehniku roll nihkub seadistajast kontrollijaks.</p>
+    </div>
+    <div class="card">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M4 19h16"/><path d="M6 15l4-4 3 3 6-7"/></svg>
+      <h3>Skaleerub ilma lisaajata</h3>
+      <p>Käsitsi mudelis tähendab iga uus seade tehniku tunde. DayOne'iga ei kasva seadistuse aeg koos seadmete arvuga.</p>
+    </div>
+    <div class="card">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/></svg>
+      <h3>Eluea lõpp ühe nupuvajutusega</h3>
+      <p>Lahkuva töötaja seade puhastatakse automaatselt, kui see võrku tuleb — ilma käsitsi uuesti paigaldamata.</p>
+    </div>
+  </div>
+</section>
+
+<section id="enne-parast" class="white sec">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">Enne ja pärast</div>
+      <h2 class="h2">Meie konkurent ei ole teine tarkvara, vaid käsitsi mudel.</h2>
+    </div>
+    <table class="compare">
+      <thead><tr><th scope="col"></th><th scope="col">Täna — käsitsi</th><th scope="col" class="to">DayOne'iga</th></tr></thead>
+      <tbody>
+        <tr><td>Seadme ettevalmistus</td><td class="as">2–4 h tehniku laual</td><td class="to">~30 min, seade ei käi tehniku kaudu</td></tr>
+        <tr><td>Tehniku aktiivne tööaeg</td><td class="as">~2 h seadme kohta</td><td class="to">~15 min kontrolli</td></tr>
+        <tr><td>Käsitsi sammud</td><td class="as">Iga arvuti puhul erinevad</td><td class="to">Kõigil alati sama profiil</td></tr>
+        <tr><td>Järelpöördumised</td><td class="as">Sagedased seadistusvigade tõttu</td><td class="to">Seade saab alati õige profiili ja rakendused</td></tr>
+        <tr><td>Vastavuskontroll</td><td class="as">Käsitsi, probleemid selguvad hilja</td><td class="to">Automaatne ja reaalajas</td></tr>
+        <tr><td>Eluea lõpp</td><td class="as">1–2 h käsitsi uuesti paigaldus</td><td class="to">Üks nupuvajutus, puhastub ise võrku tulles</td></tr>
+        <tr><td>Kulumudel</td><td class="as">Kõikuv tunni- või projektitasu</td><td class="to">Fikseeritud kuutasu seadme kohta</td></tr>
+        <tr><td>Kui seadmeid lisandub</td><td class="as">Iga seade = tehniku aeg</td><td class="to">Seadistuse aeg ei kasva</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="protsess" class="wrap sec">
+  <div class="head">
+    <div class="eyebrow">Kuidas käib</div>
+    <h2 class="h2">Kaardistame praeguse protsessi ja teeme selle automaatseks.</h2>
+  </div>
+  <ol class="steps">
+    <li><span class="n">01</span><h3>Kaardistus</h3><p>Paneme kirja, kuidas seadmed täna töötajani jõuavad ja kus kulub tehniku aeg.</p></li>
+    <li><span class="n">02</span><h3>Profiilid ja poliitikad</h3><p>Ehitame rollipõhised profiilid: rakendused, turvasätted, uuendused ja vastavusreeglid.</p></li>
+    <li><span class="n">03</span><h3>Piloot</h3><p>Proovime väikese seadmepargiga, fikseerime baasjoone ja mõõdame tulemuse.</p></li>
+    <li><span class="n">04</span><h3>Jooksev haldus</h3><p>Laiendame kogu pargile. Hoiame profiile ajakohasena fikseeritud kuutasu eest.</p></li>
+  </ol>
+  <div class="callout">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
+    <div>
+      <h3>Miks haldus on teenuse osa, mitte ühekordne projekt</h3>
+      <p>Automatiseerimine ei kaota riske, vaid nihutab need käsitsi vigadelt tsentraalse konfiguratsiooni kvaliteedile. Piloot kinnitas, et tehnoloogia töötab — seepärast keskendume profiilide ja poliitikate kvaliteedile kogu seadme elukaare vältel.</p>
+    </div>
+  </div>
+</section>
+
+<section id="hinnamudel" class="white sec">
+  <div class="wrap trio">
+    <div>
+      <div class="eyebrow">Kellele</div>
+      <h3>50–500 töötajaga ettevõtted</h3>
+      <p>Kus seadmeid haldab väline partner või väike IT-tiim ja töötajate arvutid, iPadid ning telefonid sisaldavad ettevõtte andmeid.</p>
+    </div>
+    <div>
+      <div class="eyebrow">Hinnamudel</div>
+      <h3>Fikseeritud kuutasu seadme kohta</h3>
+      <p>IT-kulu muutub prognoositavaks: eelarve sõltub seadmete arvust, mitte tehniku tundidest. Täpse hinnapakkumise teeme konsultatsiooni põhjal.</p>
+    </div>
+    <div>
+      <div class="eyebrow">Eeldus</div>
+      <h3>Microsoft 365 koos Intune'iga</h3>
+      <p>Näiteks Business Premium või E3/E5. Kui see puudub, aitame konsultatsioonis valida sobiva paketi.</p>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="contact sec">
+  <div class="wrap">
+    <div class="eyebrow">Kontakt</div>
+    <h2>Räägime läbi, kuidas saame teid aidata.</h2>
+    <p class="lead">30 minutiga saame aru, kui palju aega teie IT kulutab täna seadmete ettevalmistusele ja mida DayOne sellest muudaks. Kirjuta paari lausega: mitu töötajat, mis seadmed ja milline Microsoft 365 pakett on kasutusel.</p>
+    <a class="mailcard" href="mailto:hello@autopilot.ee?subject=DayOne%20konsultatsioon&amp;body=Tere%21%0D%0A%0D%0ASoovin%20DayOne%20konsultatsiooni.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A">
+      <span class="l">
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+        <span><small>Kirjuta meile</small><strong>hello@autopilot.ee</strong></span>
+      </span>
+      <span class="go">Küsi konsultatsiooni →</span>
+    </a>
+    <p class="fine">Kirja teel saadetud andmeid kasutame ainult konsultatsiooni korraldamiseks.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>DayOne · OptiSoft OÜ</span>
+    <span>© 2026</span>
+  </div>
+</footer>
+
+</body>
+</html>
