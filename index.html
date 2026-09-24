@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>DayOne — uus seade karbist võttes kohe tööks valmis</title>
-<meta name="description" content="DayOne automatiseerib arvutite, iPadide ja telefonide kasutuselevõtu Microsoft Intune'i ja Windows Autopiloti abil. Vähem tehniku käsitööd, prognoositav kuutasu seadme kohta.">
+<title>DayOne – arvutite automaatne seadistamine Intune’iga</title>
+<meta name="description" content="DayOne seadistab ettevõtte arvutid, iPadid ja telefonid Microsoft Intune’i abil automaatselt. Uus arvuti on tööks valmis ilma, et IT-tehnik peaks seda käsitsi ette valmistama.">
 <link rel="canonical" href="https://autopilot.ee/">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="et_EE">
-<meta property="og:title" content="DayOne — uus seade karbist võttes kohe tööks valmis">
-<meta property="og:description" content="Seadmete kasutuselevõtu automatiseerimine 50–500 töötajaga ettevõtetele. Fikseeritud kuutasu seadme kohta.">
+<meta property="og:title" content="DayOne – uus arvuti on karbist võttes kohe tööks valmis">
+<meta property="og:description" content="Arvutite ja nutiseadmete automaatne seadistamine 50–500 töötajaga ettevõtetele. Kindel kuutasu seadme kohta.">
 <meta property="og:url" content="https://autopilot.ee/">
 <meta name="theme-color" content="#15191E">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -17,7 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"DayOne","url":"https://autopilot.ee/","email":"hello@autopilot.ee","description":"Seadmete kasutuselevõtu automatiseerimine Microsoft Intune'i ja Windows Autopiloti abil.","areaServed":"EE","parentOrganization":{"@type":"Organization","name":"OptiSoft OÜ"}}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"DayOne","url":"https://autopilot.ee/","email":"hello@autopilot.ee","description":"Arvutite ja nutiseadmete automaatne seadistamine Microsoft Intune’i ja Windows Autopiloti abil.","areaServed":"EE","parentOrganization":{"@type":"Organization","name":"OptiSoft OÜ"}}
 </script>
 <style>
 :root{
@@ -153,7 +153,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   .compare td.as,.compare td.to{padding:12px 16px;border-radius:10px}
   .compare td.as{background:var(--ground);margin-bottom:8px}
   .compare td.to{background:var(--accent-tint)}
-  .compare td.as::before{content:"Täna: ";font-weight:600;color:var(--muted)}
+  .compare td.as::before{content:"Praegu: ";font-weight:600;color:var(--muted)}
   .compare td.to::before{content:"DayOne'iga: ";font-weight:600;color:var(--accent)}
   .callout{flex-direction:column;padding:24px}
 }
@@ -180,10 +180,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       DayOne
     </a>
     <nav aria-label="Peamenüü">
-      <a href="#tulemus">Tulemus</a>
+      <a href="#tulemus">Tulemused</a>
       <a href="#enne-parast">Enne ja pärast</a>
-      <a href="#protsess">Kuidas käib</a>
-      <a href="#hinnamudel">Hinnamudel</a>
+      <a href="#protsess">Kuidas see käib</a>
+      <a href="#hinnamudel">Hind</a>
       <a class="cta" href="#kontakt"><span class="long">Küsi konsultatsiooni</span><span class="short">Kontakt</span></a>
     </nav>
   </div>
@@ -192,33 +192,33 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 <main>
 <section id="top" class="wrap hero">
   <div class="hero-copy">
-    <div class="eyebrow">Seadmete kasutuselevõtu automatiseerimine</div>
+    <div class="eyebrow">Arvutite ja nutiseadmete seadistamine</div>
     <h1>Uus arvuti on<br>karbist võttes<br>kohe tööks valmis.</h1>
-    <p class="lead">DayOne annab teie IT-le tagasi aja ja prognoositavuse. Arvuti, iPad või telefon liigub tootjalt otse töötajani ja seadistub ise — tehniku laua kaudu ei käi midagi.</p>
+    <p class="lead">Uus töötaja saab arvuti kätte, logib oma tööpostiga sisse ja vajalikud programmid ning seaded tulevad ise peale. IT-tehnik ei pea iga masinat eraldi ette valmistama.</p>
     <div class="actions">
       <a class="btn btn-primary" href="mailto:hello@autopilot.ee?subject=DayOne%20konsultatsioon&amp;body=Tere%21%0D%0A%0D%0ASoovin%20DayOne%20konsultatsiooni.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A">Küsi konsultatsiooni</a>
-      <a class="btn btn-ghost" href="#enne-parast">Vaata, mis muutub</a>
+      <a class="btn btn-ghost" href="#enne-parast">Mis muutub?</a>
     </div>
-    <p class="under">Kapoti all: Microsoft Intune, Windows Autopilot, Apple Business Manager.</p>
+    <p class="under">Kasutame Microsoft Intune’i, Windows Autopiloti ja Apple Business Managerit.</p>
   </div>
 
-  <div class="journey" aria-label="Seadme teekond DayOne'iga">
-    <div class="journey-head"><strong>Seadme teekond DayOne'iga</strong><span>tootjalt töötajani</span></div>
+  <div class="journey" aria-label="Kuidas uus arvuti töötajani jõuab">
+    <div class="journey-head"><strong>Kuidas uus arvuti töötajani jõuab</strong></div>
     <div class="step">
       <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/></svg></div>
-      <div><b>Tootja saadab seadme otse töötajale</b><small>Seade on juba teie ettevõtte nimele registreeritud.</small></div>
+      <div><b>Arvuti tuleb otse müüjalt töötajale</b><small>See on juba teie ettevõtte nimel kirjas.</small></div>
     </div>
     <div class="step">
       <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
-      <div><b>Töötaja logib sisse tööpostiga</b><small>Rohkem ta teadma ei pea.</small></div>
+      <div><b>Töötaja logib sisse oma tööpostiga</b><small>Muud ta ise seadistama ei pea.</small></div>
     </div>
     <div class="step">
       <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="2" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/></svg></div>
-      <div><b>Profiil paigaldab rakendused ja turvasätted</b><small>Iga seade saab sama profiili, alati samamoodi.</small></div>
+      <div><b>Programmid ja turvaseaded paigalduvad ise</b><small>Kõik arvutid saavad samad seaded.</small></div>
     </div>
     <div class="done">
       <div class="dot"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.5" aria-hidden="true"><path d="M5 12l5 5 9-10"/></svg></div>
-      <div><b>Esimesest tööpäevast valmis.</b><small>Tehnik kontrollib, mitte ei seadista.</small></div>
+      <div><b>Arvuti on tööks valmis</b><small>IT-tehnik vaatab ainult üle, et kõik läks läbi.</small></div>
     </div>
   </div>
 </section>
@@ -227,16 +227,16 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <div class="wrap">
     <div class="top">
       <div>
-        <div class="eyebrow">Meie piloodi tulemus</div>
-        <h2>Müüme võidetud aega, mitte tehnoloogiat.</h2>
+        <div class="eyebrow">Piloodi tulemused</div>
+        <h2>Mida me pilootprojektis mõõtsime</h2>
       </div>
-      <p class="note">Indikatiivsed näitajad ühest pilootjuurutusest ja 81 pöördumise analüüsist. Ei ole garantii — teie baasjoone mõõdame piloodi esimesel kuul.</p>
+      <p class="note">Numbrid on ühest pilootjuurutusest ja 81 tugipöördumise analüüsist. Teie ettevõttes võivad need olla teistsugused, seepärast mõõdame alguses ära teie praeguse olukorra.</p>
     </div>
     <div class="stats">
-      <div class="stat"><span class="k">Arvuti ettevalmistus</span><span class="v">~30 min</span><span class="was">varem 2–4 h</span></div>
-      <div class="stat"><span class="k">Kasutuselevõtu läbivusaeg</span><span class="v">2–3 päeva</span><span class="was">varem ~9,7 päeva</span></div>
-      <div class="stat"><span class="k">Eluea lõpu puhastus</span><span class="v">~15 min</span><span class="was">varem 1–2 h käsitsi</span></div>
-      <div class="stat"><span class="k">Vastavuskontroll</span><span class="v">100%</span><span class="was">seadmetest automaatselt, reaalajas</span></div>
+      <div class="stat"><span class="k">Arvuti ettevalmistus</span><span class="v">~30 min</span><span class="was">enne 2–4 h</span></div>
+      <div class="stat"><span class="k">Uue seadme kasutuselevõtt</span><span class="v">2–3 päeva</span><span class="was">enne keskmiselt 9,7 päeva</span></div>
+      <div class="stat"><span class="k">Vana arvuti puhastamine</span><span class="v">~15 min</span><span class="was">enne 1–2 h käsitööd</span></div>
+      <div class="stat"><span class="k">Seadmete vastavuse kontroll</span><span class="v">100%</span><span class="was">kõik seadmed, automaatselt</span></div>
     </div>
   </div>
 </section>
@@ -249,18 +249,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <div class="cards">
     <div class="card">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
-      <h3>Tehnikute aeg väärtuslikumale tööle</h3>
-      <p>Seadistamine on tsentraalne ja automaatne. Tehniku roll nihkub seadistajast kontrollijaks.</p>
+      <h3>IT-l jääb aega muuks</h3>
+      <p>Arvutite ettevalmistamine ei võta enam tehniku päevi. Ta vaatab üle, et seadistus läks läbi, ja saab ülejäänud aja muule tööle kulutada.</p>
     </div>
     <div class="card">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M4 19h16"/><path d="M6 15l4-4 3 3 6-7"/></svg>
-      <h3>Skaleerub ilma lisaajata</h3>
-      <p>Käsitsi mudelis tähendab iga uus seade tehniku tunde. DayOne'iga ei kasva seadistuse aeg koos seadmete arvuga.</p>
+      <h3>Kümme või sada arvutit, töö on sama</h3>
+      <p>Käsitsi seadistades tähendab iga uus arvuti paari tundi tööd. Kui profiil on korra paika pandud, ei sõltu töö hulk sellest, mitu seadet juurde tuleb.</p>
     </div>
     <div class="card">
       <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.3-5.6"/><path d="M4 4v4h4"/></svg>
-      <h3>Eluea lõpp ühe nupuvajutusega</h3>
-      <p>Lahkuva töötaja seade puhastatakse automaatselt, kui see võrku tuleb — ilma käsitsi uuesti paigaldamata.</p>
+      <h3>Lahkuja arvuti puhtaks ühe klikiga</h3>
+      <p>Kui töötaja lahkub, saadame arvutile puhastuskäsu. Järgmine kord võrku tulles teeb arvuti ennast ise tühjaks ja on uuele kasutajale valmis.</p>
     </div>
   </div>
 </section>
@@ -269,19 +269,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <div class="wrap">
     <div class="head">
       <div class="eyebrow">Enne ja pärast</div>
-      <h2 class="h2">Meie konkurent ei ole teine tarkvara, vaid käsitsi mudel.</h2>
+      <h2 class="h2">Mis muutub võrreldes käsitsi seadistamisega</h2>
     </div>
     <table class="compare">
-      <thead><tr><th scope="col"></th><th scope="col">Täna — käsitsi</th><th scope="col" class="to">DayOne'iga</th></tr></thead>
+      <thead><tr><th scope="col"></th><th scope="col">Praegu</th><th scope="col" class="to">DayOne'iga</th></tr></thead>
       <tbody>
-        <tr><td>Seadme ettevalmistus</td><td class="as">2–4 h tehniku laual</td><td class="to">~30 min, seade ei käi tehniku kaudu</td></tr>
-        <tr><td>Tehniku aktiivne tööaeg</td><td class="as">~2 h seadme kohta</td><td class="to">~15 min kontrolli</td></tr>
-        <tr><td>Käsitsi sammud</td><td class="as">Iga arvuti puhul erinevad</td><td class="to">Kõigil alati sama profiil</td></tr>
-        <tr><td>Järelpöördumised</td><td class="as">Sagedased seadistusvigade tõttu</td><td class="to">Seade saab alati õige profiili ja rakendused</td></tr>
-        <tr><td>Vastavuskontroll</td><td class="as">Käsitsi, probleemid selguvad hilja</td><td class="to">Automaatne ja reaalajas</td></tr>
-        <tr><td>Eluea lõpp</td><td class="as">1–2 h käsitsi uuesti paigaldus</td><td class="to">Üks nupuvajutus, puhastub ise võrku tulles</td></tr>
-        <tr><td>Kulumudel</td><td class="as">Kõikuv tunni- või projektitasu</td><td class="to">Fikseeritud kuutasu seadme kohta</td></tr>
-        <tr><td>Kui seadmeid lisandub</td><td class="as">Iga seade = tehniku aeg</td><td class="to">Seadistuse aeg ei kasva</td></tr>
+        <tr><td>Arvuti ettevalmistus</td><td class="as">2–4 h tehniku juures</td><td class="to">Umbes 30 min, arvuti ei käi tehniku kaudu</td></tr>
+        <tr><td>Tehniku tööaeg</td><td class="as">Umbes 2 h arvuti kohta</td><td class="to">Umbes 15 min kontrolli</td></tr>
+        <tr><td>Seadistamise käik</td><td class="as">Iga arvuti natuke erinev</td><td class="to">Kõik saavad sama profiili</td></tr>
+        <tr><td>Pöördumised pärast seadistust</td><td class="as">Tihti, sest midagi jäi tegemata</td><td class="to">Harvem, sest seaded ja programmid tulevad alati samad</td></tr>
+        <tr><td>Vastavuse kontroll</td><td class="as">Käsitsi, vead tulevad välja hiljem</td><td class="to">Automaatne, probleem on kohe näha</td></tr>
+        <tr><td>Vana arvuti puhastamine</td><td class="as">1–2 h uuesti paigaldamist</td><td class="to">Üks käsk, arvuti teeb ülejäänu ise</td></tr>
+        <tr><td>Kulu</td><td class="as">Tunnitasu, iga kuu erinev</td><td class="to">Kindel kuutasu seadme kohta</td></tr>
+        <tr><td>Kui seadmeid tuleb juurde</td><td class="as">Iga uus seade lisab tööd</td><td class="to">Töö hulk jääb samaks</td></tr>
       </tbody>
     </table>
   </div>
@@ -289,20 +289,20 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 
 <section id="protsess" class="wrap sec">
   <div class="head">
-    <div class="eyebrow">Kuidas käib</div>
-    <h2 class="h2">Kaardistame praeguse protsessi ja teeme selle automaatseks.</h2>
+    <div class="eyebrow">Kuidas see käib</div>
+    <h2 class="h2">Neli sammu</h2>
   </div>
   <ol class="steps">
-    <li><span class="n">01</span><h3>Kaardistus</h3><p>Paneme kirja, kuidas seadmed täna töötajani jõuavad ja kus kulub tehniku aeg.</p></li>
-    <li><span class="n">02</span><h3>Profiilid ja poliitikad</h3><p>Ehitame rollipõhised profiilid: rakendused, turvasätted, uuendused ja vastavusreeglid.</p></li>
-    <li><span class="n">03</span><h3>Piloot</h3><p>Proovime väikese seadmepargiga, fikseerime baasjoone ja mõõdame tulemuse.</p></li>
-    <li><span class="n">04</span><h3>Jooksev haldus</h3><p>Laiendame kogu pargile. Hoiame profiile ajakohasena fikseeritud kuutasu eest.</p></li>
+    <li><span class="n">01</span><h3>Tutvume</h3><p>Vaatame üle, kuidas arvutid teil praegu töötajani jõuavad ja kuhu tehniku aeg kulub.</p></li>
+    <li><span class="n">02</span><h3>Seadistame</h3><p>Paneme Intune’is paika profiilid eri rollidele: programmid, turvaseaded, uuendused ja reeglid.</p></li>
+    <li><span class="n">03</span><h3>Proovime</h3><p>Alustame paari seadmega ja mõõdame, kui palju aega kulus enne ja kui palju pärast.</p></li>
+    <li><span class="n">04</span><h3>Hoiame korras</h3><p>Kui piloot töötab, võtame lahenduse kasutusele kõigil seadmetel ja hoiame profiilid edaspidi ajakohasena.</p></li>
   </ol>
   <div class="callout">
     <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0B6B68" stroke-width="1.8" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6l8-3z"/><path d="M12 8v5"/><path d="M12 16h.01"/></svg>
     <div>
-      <h3>Miks haldus on teenuse osa, mitte ühekordne projekt</h3>
-      <p>Automatiseerimine ei kaota riske, vaid nihutab need käsitsi vigadelt tsentraalse konfiguratsiooni kvaliteedile. Piloot kinnitas, et tehnoloogia töötab — seepärast keskendume profiilide ja poliitikate kvaliteedile kogu seadme elukaare vältel.</p>
+      <h3>Miks me pakume hooldust kuutasuga</h3>
+      <p>Automaatika teeb täpselt seda, mis profiilis kirjas on. Kui profiilis on viga, jõuab see kõigi arvutiteni. Seepärast ei piirdu me ühekordse seadistusega, vaid hoiame profiilidel ja reeglitel pidevalt silma peal.</p>
     </div>
   </div>
 </section>
@@ -311,18 +311,18 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <div class="wrap trio">
     <div>
       <div class="eyebrow">Kellele</div>
-      <h3>50–500 töötajaga ettevõtted</h3>
-      <p>Kus seadmeid haldab väline partner või väike IT-tiim ja töötajate arvutid, iPadid ning telefonid sisaldavad ettevõtte andmeid.</p>
+      <h3>Ettevõtetele, kus on 50–500 töötajat</h3>
+      <p>Eriti siis, kui arvuteid haldab väline IT-partner või väike oma IT-tiim ning töötajate arvutites, iPadides või telefonides on ettevõtte andmed.</p>
     </div>
     <div>
-      <div class="eyebrow">Hinnamudel</div>
-      <h3>Fikseeritud kuutasu seadme kohta</h3>
-      <p>IT-kulu muutub prognoositavaks: eelarve sõltub seadmete arvust, mitte tehniku tundidest. Täpse hinnapakkumise teeme konsultatsiooni põhjal.</p>
+      <div class="eyebrow">Hind</div>
+      <h3>Kindel kuutasu seadme kohta</h3>
+      <p>Nii on IT-kulu ette teada. Arve sõltub seadmete arvust, mitte sellest, mitu tundi tehnik sel kuul tööd tegi. Pakkumise teeme pärast esimest vestlust.</p>
     </div>
     <div>
-      <div class="eyebrow">Eeldus</div>
-      <h3>Microsoft 365 koos Intune'iga</h3>
-      <p>Näiteks Business Premium või E3/E5. Kui see puudub, aitame konsultatsioonis valida sobiva paketi.</p>
+      <div class="eyebrow">Mida on vaja</div>
+      <h3>Microsoft 365 koos Intune’iga</h3>
+      <p>Näiteks Business Premium või E3/E5. Kui teil seda veel pole, aitame sobiva paketi valida.</p>
     </div>
   </div>
 </section>
@@ -331,7 +331,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   <div class="wrap">
     <div class="eyebrow">Kontakt</div>
     <h2>Räägime läbi, kuidas saame teid aidata.</h2>
-    <p class="lead">30 minutiga saame aru, kui palju aega teie IT kulutab täna seadmete ettevalmistusele ja mida DayOne sellest muudaks. Kirjuta paari lausega: mitu töötajat, mis seadmed ja milline Microsoft 365 pakett on kasutusel.</p>
+    <p class="lead">Kirjuta meile paar rida: mitu inimest teil töötab, mis seadmeid kasutate ja milline Microsoft 365 pakett on. Seejärel lepime kokku pooletunnise kõne, kus vaatame koos üle, kui palju aega arvutite ettevalmistamine teil praegu võtab.</p>
     <a class="mailcard" href="mailto:hello@autopilot.ee?subject=DayOne%20konsultatsioon&amp;body=Tere%21%0D%0A%0D%0ASoovin%20DayOne%20konsultatsiooni.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A">
       <span class="l">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
@@ -339,7 +339,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       </span>
       <span class="go">Küsi konsultatsiooni →</span>
     </a>
-    <p class="fine">Kirja teel saadetud andmeid kasutame ainult konsultatsiooni korraldamiseks.</p>
+    <p class="fine">Kirjas olevaid andmeid kasutame ainult selleks, et teiega ühendust võtta.</p>
   </div>
 </section>
 </main>
