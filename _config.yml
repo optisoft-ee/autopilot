@@ -1,0 +1,5 @@
+# DayOne onepager — GitHub Pages ehitab selle Jekylliga automaatselt.
+title: DayOne
+url: "https://autopilot.ee"
+exclude:
+  - README.md
