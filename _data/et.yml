@@ -1,4 +1,3 @@
-```yaml
 # Eestikeelsed tekstid. Muuda siin, kujundus on failis _layouts/onepager.html.
 # Paaris hoitav ingliskeelne fail: _data/en.yml (samad võtmed).
 
@@ -129,4 +128,3 @@ contact:
   fine: "Kirjas olevaid andmeid kasutame ainult teiega ühenduse võtmiseks."
 
 footer: "DayOne · OptiSoft OÜ"
-```
