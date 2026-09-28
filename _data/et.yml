@@ -27,7 +27,7 @@ nav:
 hero:
   eyebrow: "Arvutite ja nutiseadmete seadistamine"
   title: "Uus arvuti on <br>karbist võttes <br>kohe tööks valmis."
-  lead: "Uus töötaja saab arvuti kätte, logib töömeiliga sisse ning vajalikud programmid ja seaded paigaldatakse automaatselt. IT-tehnik ei pea iga arvutit eraldi ette valmistama. Pole vahet, kas kasutate Windowsi või Maci arvuteid või nutitelefone."
+  lead: "Uus töötaja saab arvuti kätte, logib töömeiliga sisse ning vajalikud programmid ja seaded paigaldatakse automaatselt. IT-tehnik ei pea iga arvutit eraldi ette valmistama. Pole vahet, kas kasutate Windowsi, Maci arvuteid või nutitelefone."
   cta: "Küsige konsultatsiooni"
   secondary: "Mis muutub?"
   under: "Kasutame Microsoft Intune’i, Windows Autopiloti ja Apple Business Manageri."
