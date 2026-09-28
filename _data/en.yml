@@ -18,33 +18,33 @@ nav:
   compare: "Before and after"
   process: "How it works"
   pricing: "Pricing"
-  cta: "Book a consultation"
+  cta: "Ask for a consultation"
   cta_short: "Contact"
   switch_label: "Eesti keeles"
   switch_text: "ET"
 
 hero:
   eyebrow: "Computer and mobile device setup"
-  title: "A new computer is<br>ready for work<br>straight out of the box."
-  lead: "A new employee unboxes their computer, signs in with their work email, and the apps and settings install themselves. Your IT technician no longer has to prepare each machine by hand."
-  cta: "Book a consultation"
+  title: "A new computer is <br>ready for work <br>straight out of the box."
+  lead: "A new employee receives their computer and signs in with their work email, and the apps and settings they need are installed automatically. Your IT technician doesn’t have to prepare each computer separately. It doesn’t matter whether you use Windows computers, Macs or smartphones."
+  cta: "Ask for a consultation"
   secondary: "What changes?"
-  under: "Built on Microsoft Intune, Windows Autopilot and Apple Business Manager."
+  under: "We use Microsoft Intune, Windows Autopilot and Apple Business Manager."
   journey_title: "How a new computer reaches your employee"
   steps:
-    - title: "Shipped straight from the vendor to the employee"
-      text: "It’s already registered to your company."
+    - title: "The computer ships from the vendor straight to the employee"
+      text: "The device is already linked to your company."
     - title: "The employee signs in with their work email"
-      text: "There’s nothing else for them to set up."
-    - title: "Apps and security settings install themselves"
+      text: "The system handles the rest of the setup automatically."
+    - title: "Apps and security settings are installed automatically"
       text: "Every computer gets the same settings."
   done_title: "The computer is ready for work"
-  done_text: "Your IT technician just checks that everything meets company policy."
+  done_text: "Your IT technician checks that the setup meets company requirements."
 
 results:
   eyebrow: "Pilot results"
   title: "What we measured in our pilot"
-  note: "Indicative results from one pilot deployment and an analysis of 81 support tickets, not a guarantee. With your company, we start by measuring where you are today."
+  note: "These results are based on a pilot project and an analysis of support tickets, and are indicative. In your company, we first measure the current situation."
   before: "Before"
   after: "With DayOne"
   rows:
@@ -52,30 +52,30 @@ results:
       text: "The whole process until the computer is ready for work."
       before: "2–4 h"
       after: "~30 min"
-    - title: "Of which, hands-on technician time"
-      text: "The computer handles the rest on its own."
+    - title: "Of which, technician time"
+      text: "The computer does the rest of the setup automatically."
       before: "~2 h"
       after: "~15 min"
     - title: "Wiping an old computer"
-      text: "When someone leaves and the computer goes to a new user."
+      text: "When an employee leaves and the computer is handed to a new user."
       before: "1–2 h"
       after: "~15 min"
     - title: "Adding more computers"
-      text: "10 computers or 100."
+      text: "Whether it’s 10 new computers or 100."
       before: "Every computer adds technician hours"
-      after: "Setup time stays the same"
+      after: "Time spent on setup doesn’t grow"
       textual: true
 
 benefits:
   eyebrow: "What you get"
-  title: "Employees can start work right away.<br>IT doesn’t have to step in."
+  title: "Employees can start work right away. <br>Your IT technician doesn’t have to deal with each computer separately."
   cards:
-    - title: "IT gets time back for other work"
-      text: "Preparing computers no longer eats up your technician’s days. They check that the setup went through and can spend the rest of their time on other work."
-    - title: "10 computers or 100, same amount of work"
-      text: "With manual setup, every new computer means a couple of hours of work. Once the profile is in place, the workload doesn’t depend on how many devices you add."
-    - title: "Wipe a leaver’s computer in one click"
-      text: "When someone leaves, we send their computer a wipe command. The next time it goes online, it resets itself and is ready for a new user."
+    - title: "IT has time for other things"
+      text: "Preparing computers no longer takes up long working days for your technician. They check that the setup succeeded and can focus on other tasks."
+    - title: "Ten computers or a hundred – the workload stays the same"
+      text: "With manual setup, every new computer means extra work for the technician. Once the profiles are in place, the workload doesn’t grow at the same pace as the number of devices."
+    - title: "Wipe a leaver’s computer with one command"
+      text: "When someone leaves, we send their computer a wipe command. The next time the device connects to the network, it resets automatically and is prepared for a new user."
 
 compare:
   eyebrow: "Before and after"
@@ -83,47 +83,47 @@ compare:
   col_before: "Today"
   col_after: "With DayOne"
   rows:
-    - ["Computer setup", "2–4 h, the computer goes through the technician’s desk", "About 30 min, the computer goes straight to the employee"]
+    - ["Computer setup", "2–4 h, the computer passes through the technician’s desk", "About 30 min, the computer goes straight to the employee"]
     - ["Technician time", "About 2 h per computer", "About 15 min of checks"]
-    - ["How setup is done", "Every computer is slightly different", "Everyone gets the same profile"]
-    - ["Tickets after setup", "Frequent, because something was missed", "Fewer, because settings and apps are always the same"]
-    - ["Compliance checks", "Manual, problems surface late", "Automatic, problems show up right away"]
-    - ["Wiping an old computer", "1–2 h of reinstalling", "One command, the computer does the rest"]
-    - ["Cost", "Hourly rate, different every month", "Fixed monthly fee per device"]
-    - ["Adding more devices", "Every new device adds work", "The workload stays the same"]
+    - ["How setup is done", "Setup may differ from computer to computer", "Every computer gets the same profile"]
+    - ["Tickets after setup", "More frequent, because something may be left undone", "Less frequent, because settings and apps are installed from one shared profile"]
+    - ["Compliance checks", "Manual, so errors may surface later", "Automatic, deviations are visible right away"]
+    - ["Wiping an old computer", "1–2 h of setting it up again", "One command, the rest happens automatically"]
+    - ["Cost", "Hourly rate, cost varies from month to month", "Fixed monthly fee per device"]
+    - ["Adding more devices", "Every new device adds work", "The workload doesn’t grow at the same pace as the number of devices"]
 
 process:
   eyebrow: "How it works"
   title: "Four steps"
   steps:
-    - title: "Get to know you"
+    - title: "Get to know"
       text: "We look at how computers reach your employees today and where your technician’s time goes."
     - title: "Set up"
-      text: "We configure Intune profiles for different roles: apps, security settings, updates and policies."
+      text: "In Intune, we set up the apps, security settings, updates and policies needed for different roles."
     - title: "Pilot"
-      text: "We start with a few devices and measure how long things took before and after."
+      text: "We start with a few devices and compare how much time setup took before and after."
     - title: "Keep it running"
-      text: "Once the pilot works, we roll it out to all your devices and keep the profiles up to date."
-  callout_title: "Why maintenance is a monthly service"
-  callout_text: "Automation does exactly what the profile says. If the profile has a mistake, it reaches every computer. That’s why we don’t stop at a one-off setup: we keep an eye on your profiles and policies all the time."
+      text: "If the pilot is successful, we roll the solution out to all devices and keep the profiles up to date from then on."
+  callout_title: "Why we offer maintenance for a monthly fee"
+  callout_text: "Automation follows the settings defined in the profile. If the profile contains an error, it can reach every computer. That’s why we don’t stop at a one-off setup: we continuously monitor and update your profiles and policies."
 
 pricing:
   - eyebrow: "Who it’s for"
     title: "Companies with 10–500 employees"
-    text: "Especially if an external IT partner or a small in-house team looks after your computers, and company data lives on your employees’ computers, iPads or phones."
+    text: "DayOne is especially suited to companies where devices are managed by an external IT partner or a small in-house IT team, and company data is kept on computers, iPads or phones."
   - eyebrow: "Pricing"
     title: "Fixed monthly fee per device"
-    text: "Your IT costs are known in advance. The bill depends on the number of devices, not on how many hours the technician worked that month. We’ll send a quote after our first conversation."
+    text: "This way your IT costs are known in advance. The invoice depends on the number of devices, not on technician hours. We’ll prepare an exact quote after our first conversation."
   - eyebrow: "What you need"
     title: "Microsoft 365 with Intune"
-    text: "For example Business Premium or E3/E5. If you don’t have it yet, we’ll help you pick the right plan."
+    text: "For example Business Premium or E3/E5. If you don’t have a suitable plan yet, we’ll help you choose one."
 
 contact:
   eyebrow: "Contact"
   title: "Let’s talk about how we can help."
-  lead: "Drop us a few lines: how many people work at your company, what devices you use and which Microsoft 365 plan you have. Then we’ll set up a 30-minute call to look at how much time computer setup takes you today."
+  lead: "Write us a few lines: how many people work at your company, which devices you use and which Microsoft 365 plan you have. Then we’ll arrange a half-hour call to review your current setup process and the time it takes."
   mail_label: "Write to us"
-  mail_cta: "Book a consultation →"
-  fine: "We only use the details in your email to get back to you."
+  mail_cta: "Ask for a consultation →"
+  fine: "We only use the details in your email to contact you."
 
 footer: "DayOne · OptiSoft OÜ"
