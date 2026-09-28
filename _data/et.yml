@@ -1,3 +1,4 @@
+```yaml
 # Eestikeelsed tekstid. Muuda siin, kujundus on failis _layouts/onepager.html.
 # Paaris hoitav ingliskeelne fail: _data/en.yml (samad võtmed).
 
@@ -27,56 +28,56 @@ nav:
 hero:
   eyebrow: "Arvutite ja nutiseadmete seadistamine"
   title: "Uus arvuti on<br>karbist võttes<br>kohe tööks valmis."
-  lead: "Uus töötaja saab arvuti kätte, logib oma tööpostiga sisse ja vajalikud programmid ning seaded tulevad ise peale. IT-tehnik ei pea iga masinat eraldi ette valmistama."
+  lead: "Uus töötaja saab arvuti kätte, logib töömeiliga sisse ning vajalikud programmid ja seaded paigaldatakse automaatselt. IT-tehnik ei pea iga arvutit eraldi ette valmistama."
   cta: "Küsi konsultatsiooni"
   secondary: "Mis muutub?"
   under: "Kasutame Microsoft Intune’i, Windows Autopiloti ja Apple Business Manageri."
   journey_title: "Kuidas uus arvuti töötajani jõuab"
   steps:
-    - title: "Arvuti tuleb otse müüjalt töötajale"
-      text: "See on juba teie ettevõtte nimel kirjas."
-    - title: "Töötaja logib sisse oma tööpostiga"
-      text: "Muud ta ise seadistama ei pea."
-    - title: "Programmid ja turvaseaded paigalduvad ise"
-      text: "Kõik arvutid saavad samad seaded."
+    - title: "Arvuti tuleb müüjalt otse töötajale"
+      text: "Seade on juba teie ettevõttega seotud."
+    - title: "Töötaja logib sisse oma töömeiliga"
+      text: "Ülejäänud seadistuse teeb süsteem automaatselt."
+    - title: "Programmid ja turvaseaded paigaldatakse automaatselt"
+      text: "Kõik arvutid saavad ühesugused seaded."
   done_title: "Arvuti on tööks valmis"
-  done_text: "IT-tehnik vaatab ainult üle, et kõik oleks kooskõlas ettevõtte nõuetega."
+  done_text: "IT-tehnik kontrollib, et seadistus vastaks ettevõtte nõuetele."
 
 results:
   eyebrow: "Piloodi tulemused"
   title: "Mida me pilootprojektis mõõtsime"
-  note: "Indikatiivne tulemus ühest pilootjuurutusest ja 81 tugipöördumise analüüsist, mitte garantii. Teie ettevõttes mõõdame alguses ära praeguse olukorra."
+  note: "Tulemused põhinevad ühel pilootprojektil ja 81 tugipöördumise analüüsil ning on indikatiivsed, mitte garanteeritud. Teie ettevõttes mõõdame esmalt praeguse olukorra."
   before: "Enne"
   after: "DayOne’iga"
   rows:
     - title: "Arvuti seadistamine algusest lõpuni"
-      text: "Kogu protsess, kuni arvuti on tööks valmis."
+      text: "Kogu protsess kuni hetkeni, mil arvuti on tööks valmis."
       before: "2–4 h"
       after: "~30 min"
-    - title: "Sellest tehniku enda töö"
-      text: "Ülejäänud aja teeb arvuti ise."
+    - title: "Sellest tehniku töö"
+      text: "Ülejäänud seadistuse teeb arvuti automaatselt."
       before: "~2 h"
       after: "~15 min"
     - title: "Vana arvuti puhastamine"
-      text: "Kui töötaja lahkub ja arvuti läheb uuele kasutajale."
+      text: "Kui töötaja lahkub ja arvuti antakse uuele kasutajale."
       before: "1–2 h"
       after: "~15 min"
     - title: "Kui arvuteid tuleb juurde"
-      text: "10 või 100 arvutit."
-      before: "Iga arvuti lisab tehniku tunde"
-      after: "Seadistuse aeg ei muutu"
+      text: "Olgu uusi arvuteid 10 või 100."
+      before: "Iga arvuti lisab tehniku töötunde"
+      after: "Seadistamisele kuluv tööaeg ei kasva"
       textual: true
 
 benefits:
   eyebrow: "Mida see teile annab"
-  title: "Töötaja saab kohe tööle asuda.<br>IT ei pea liigselt sekkuma."
+  title: "Töötaja saab kohe tööle asuda.<br>IT-l jääb aega muuks."
   cards:
     - title: "IT-l jääb aega muuks"
-      text: "Arvutite ettevalmistamine ei võta enam tehniku päevi. Ta vaatab üle, et seadistus läks läbi, ja saab ülejäänud aja muule tööle kulutada."
-    - title: "Kümme või sada arvutit, töö on sama"
-      text: "Käsitsi seadistades tähendab iga uus arvuti paari tundi tööd. Kui profiil on korra paika pandud, ei sõltu töö hulk sellest, mitu seadet juurde tuleb."
-    - title: "Lahkuja arvuti puhtaks ühe klikiga"
-      text: "Kui töötaja lahkub, saadame arvutile puhastuskäsu. Järgmine kord võrku tulles teeb arvuti ennast ise tühjaks ja on uuele kasutajale valmis."
+      text: "Arvutite ettevalmistamine ei võta enam tehniku päevi. Tehnik kontrollib, et seadistus õnnestus, ning saab keskenduda muudele ülesannetele."
+    - title: "Kümme või sada arvutit – töömaht jääb samaks"
+      text: "Käsitsi seadistades tähendab iga uus arvuti tehnikule lisatööd. Kui profiilid on paigas, ei kasva töömaht samas tempos seadmete arvuga."
+    - title: "Lahkuja arvuti puhtaks ühe käsuga"
+      text: "Kui töötaja lahkub, saadame arvutile puhastuskäsu. Kui seade järgmine kord võrku ühendub, lähtestatakse see automaatselt ja valmistatakse ette uue kasutaja jaoks."
 
 compare:
   eyebrow: "Enne ja pärast"
@@ -84,47 +85,48 @@ compare:
   col_before: "Praegu"
   col_after: "DayOne’iga"
   rows:
-    - ["Arvuti seadistamine", "2–4 h, arvuti käib tehniku laua kaudu", "Umbes 30 min, arvuti läheb otse töötajale"]
-    - ["Tehniku enda töö", "Umbes 2 h arvuti kohta", "Umbes 15 min kontrolli"]
-    - ["Seadistamise käik", "Iga arvuti natuke erinev", "Kõik saavad sama profiili"]
-    - ["Pöördumised pärast seadistust", "Tihti, sest midagi jäi tegemata", "Harvem, sest seaded ja programmid tulevad alati samad"]
-    - ["Vastavuse kontroll", "Käsitsi, vead tulevad välja hiljem", "Automaatne, probleem on kohe näha"]
-    - ["Vana arvuti puhastamine", "1–2 h uuesti paigaldamist", "Üks käsk, arvuti teeb ülejäänu ise"]
-    - ["Kulu", "Tunnitasu, iga kuu erinev", "Kindel kuutasu seadme kohta"]
-    - ["Kui seadmeid tuleb juurde", "Iga uus seade lisab tööd", "Töö hulk jääb samaks"]
+    - ["Arvuti seadistamine", "2–4 h, arvuti käib tehniku laualt läbi", "Umbes 30 min, arvuti läheb otse töötajale"]
+    - ["Tehniku töö", "Umbes 2 h arvuti kohta", "Umbes 15 min kontrollimiseks"]
+    - ["Seadistamise käik", "Seadistus võib arvutiti erineda", "Kõik arvutid saavad sama profiili"]
+    - ["Pöördumised pärast seadistust", "Sagedamini, sest midagi võib jääda tegemata", "Harvem, sest seaded ja programmid paigaldatakse ühtse profiili järgi"]
+    - ["Vastavuse kontroll", "Käsitsi, mistõttu võivad vead ilmneda hiljem", "Automaatne, kõrvalekalded on kohe näha"]
+    - ["Vana arvuti puhastamine", "1–2 h uuesti seadistamist", "Üks käsk, ülejäänu toimub automaatselt"]
+    - ["Kulu", "Tunnitasu, kulu erineb kuude lõikes", "Kindel kuutasu seadme kohta"]
+    - ["Kui seadmeid tuleb juurde", "Iga uus seade lisab tööd", "Töömaht ei kasva samas tempos seadmete arvuga"]
 
 process:
   eyebrow: "Kuidas see käib"
   title: "Neli sammu"
   steps:
     - title: "Tutvume"
-      text: "Vaatame üle, kuidas arvutid teil praegu töötajani jõuavad ja kuhu tehniku aeg kulub."
+      text: "Vaatame üle, kuidas arvutid praegu töötajateni jõuavad ja millele tehniku aeg kulub."
     - title: "Seadistame"
-      text: "Paneme Intune’is paika profiilid eri rollidele: programmid, turvaseaded, uuendused ja reeglid."
+      text: "Paneme Intune’is eri rollide jaoks paika vajalikud programmid, turvaseaded, uuendused ja reeglid."
     - title: "Proovime"
-      text: "Alustame paari seadmega ja mõõdame, kui palju aega kulus enne ja kui palju pärast."
+      text: "Alustame paari seadmega ja võrdleme, kui palju aega kulus seadistamisele enne ning kui palju pärast."
     - title: "Hoiame korras"
-      text: "Kui piloot töötab, võtame lahenduse kasutusele kõigil seadmetel ja hoiame profiilid edaspidi ajakohasena."
-  callout_title: "Miks me pakume hooldust kuutasuga"
-  callout_text: "Automaatika teeb täpselt seda, mis profiilis kirjas on. Kui profiilis on viga, jõuab see kõigi arvutiteni. Seepärast ei piirdu me ühekordse seadistusega, vaid hoiame profiilidel ja reeglitel pidevalt silma peal."
+      text: "Kui piloot on edukas, võtame lahenduse kasutusele kõigil seadmetel ja hoiame profiilid edaspidi ajakohasena."
+  callout_title: "Miks pakume hooldust kuutasuga"
+  callout_text: "Automaatika järgib profiilis määratud seadeid. Kui profiilis on viga, võib see jõuda kõigi arvutiteni. Seepärast ei piirdu me ühekordse seadistamisega, vaid jälgime ja ajakohastame profiile ning reegleid pidevalt."
 
 pricing:
   - eyebrow: "Kellele"
-    title: "Ettevõtetele, kus on 10–500 töötajat"
-    text: "Eriti siis, kui arvuteid haldab väline IT-partner või väike oma IT-tiim ning töötajate arvutites, iPadides või telefonides on ettevõtte andmed."
+    title: "10–500 töötajaga ettevõtetele"
+    text: "Eriti sobib DayOne ettevõtetele, kus seadmeid haldab väline IT-partner või väike ettevõttesisene IT-tiim ning arvutites, iPadides või telefonides hoitakse ettevõtte andmeid."
   - eyebrow: "Hind"
     title: "Kindel kuutasu seadme kohta"
-    text: "Nii on IT-kulu ette teada. Arve sõltub seadmete arvust, mitte sellest, mitu tundi tehnik sel kuul tööd tegi. Pakkumise teeme pärast esimest vestlust."
+    text: "Nii on IT-kulu ette teada. Arve sõltub seadmete arvust, mitte tehniku töötundidest. Täpse pakkumise teeme pärast esimest vestlust."
   - eyebrow: "Mida on vaja"
     title: "Microsoft 365 koos Intune’iga"
-    text: "Näiteks Business Premium või E3/E5. Kui teil seda veel pole, aitame sobiva paketi valida."
+    text: "Näiteks Business Premium või E3/E5. Kui teil sobivat paketti veel pole, aitame selle valida."
 
 contact:
   eyebrow: "Kontakt"
   title: "Räägime läbi, kuidas saame teid aidata."
-  lead: "Kirjuta meile paar rida: mitu inimest teil töötab, mis seadmeid kasutate ja milline Microsoft 365 pakett on. Seejärel lepime kokku pooletunnise kõne, kus vaatame koos üle, kui palju aega arvutite ettevalmistamine teil praegu võtab."
+  lead: "Kirjutage meile paar rida: mitu inimest ettevõttes töötab, milliseid seadmeid kasutate ja milline Microsoft 365 pakett teil on. Seejärel lepime kokku pooletunnise kõne, et vaadata üle praegune seadistusprotsess ja sellele kuluv aeg."
   mail_label: "Kirjuta meile"
   mail_cta: "Küsi konsultatsiooni →"
-  fine: "Kirjas olevaid andmeid kasutame ainult selleks, et teiega ühendust võtta."
+  fine: "Kirjas olevaid andmeid kasutame ainult teiega ühenduse võtmiseks."
 
 footer: "DayOne · OptiSoft OÜ"
+```
