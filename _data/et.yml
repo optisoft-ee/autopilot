@@ -19,7 +19,7 @@ nav:
   compare: "Enne ja pärast"
   process: "Kuidas see käib"
   pricing: "Hind"
-  cta: "Küsi konsultatsiooni"
+  cta: "Küsige konsultatsiooni"
   cta_short: "Kontakt"
   switch_label: "In English"
   switch_text: "EN"
@@ -28,7 +28,7 @@ hero:
   eyebrow: "Arvutite ja nutiseadmete seadistamine"
   title: "Uus arvuti on<br>karbist võttes<br>kohe tööks valmis."
   lead: "Uus töötaja saab arvuti kätte, logib töömeiliga sisse ning vajalikud programmid ja seaded paigaldatakse automaatselt. IT-tehnik ei pea iga arvutit eraldi ette valmistama."
-  cta: "Küsi konsultatsiooni"
+  cta: "Küsige konsultatsiooni"
   secondary: "Mis muutub?"
   under: "Kasutame Microsoft Intune’i, Windows Autopiloti ja Apple Business Manageri."
   journey_title: "Kuidas uus arvuti töötajani jõuab"
@@ -69,7 +69,7 @@ results:
 
 benefits:
   eyebrow: "Mida see teile annab"
-  title: "Töötaja saab kohe tööle asuda.<br>IT-l vabaneb ressurss ja jääb aega muuks."
+  title: "Töötaja saab kohe tööle asuda.<br>IT-tehnik ei pea iga arvutiga eraldi tegelema."
   cards:
     - title: "IT-l jääb aega muuks"
       text: "Arvutite ettevalmistamine ei nõua enam tehnikult pikki tööpäevi. Tehnik kontrollib, et seadistus õnnestus, ning saab keskenduda muudele ülesannetele."
@@ -123,8 +123,8 @@ contact:
   eyebrow: "Kontakt"
   title: "Räägime läbi, kuidas saame teid aidata."
   lead: "Kirjutage meile paar rida: mitu inimest ettevõttes töötab, milliseid seadmeid kasutate ja milline Microsoft 365 pakett teil on. Seejärel lepime kokku pooletunnise kõne, et vaadata üle praegune seadistusprotsess ja sellele kuluv aeg."
-  mail_label: "Kirjuta meile"
-  mail_cta: "Küsi konsultatsiooni →"
+  mail_label: "Kirjutage meile"
+  mail_cta: "Küsige konsultatsiooni →"
   fine: "Kirjas olevaid andmeid kasutame ainult teiega ühenduse võtmiseks."
 
 footer: "DayOne · OptiSoft OÜ"
