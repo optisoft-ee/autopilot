@@ -25,8 +25,8 @@ nav:
 
 hero:
   eyebrow: "Work device setup"
-  title: "Your device. <br>Your first working day."
-  lead: "Take your work computer out of the box and sign in with your work email. Apps and settings install automatically in about half an hour. IT doesn’t have to prepare each device by hand."
+  title: "Your device. <br>Your first day at work."
+  lead: "Take your computer out of the box and sign in with your work email. Apps and settings install automatically in about half an hour. IT doesn’t have to prepare each device manually."
   cta: "Calculate your time saved"
   secondary: "See how to get started"
   steps:
