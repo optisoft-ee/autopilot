@@ -27,7 +27,7 @@ nav:
 hero:
   eyebrow: "Tööseadme seadistamine"
   title: "Sinu seade. <br>Sinu esimene tööpäev."
-  lead: "Võta tööarvuti karbist välja ja logi töömeiliga sisse. Programmid ja seaded paigalduvad umbes poole tunniga automaatselt. IT ei pea iga seadet käsitsi ette valmistama."
+  lead: "Võta arvuti karbist välja ja logi töömeiliga sisse. Programmid ja seaded paigalduvad umbes poole tunniga automaatselt. IT ei pea iga seadet käsitsi ette valmistama."
   cta: "Arvuta oma ajavõit"
   secondary: "Vaata, kuidas alustada"
   steps:
