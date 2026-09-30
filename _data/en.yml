@@ -25,14 +25,14 @@ nav:
 
 hero:
   eyebrow: "Work device setup"
-  title: "Your device. <br>Your first day at work."
-  lead: "Take your computer out of the box and sign in with your work email. Apps and settings install automatically in about half an hour. IT doesn’t have to prepare each device manually."
+  title: "Your device. <br>Your first working day."
+  lead: "Unbox your work computer and sign in with your work email. Apps and settings install automatically in about half an hour. IT doesn’t have to prepare each device by hand."
   cta: "Calculate your time saved"
   secondary: "See how to get started"
   steps:
-    - title: "Open"
+    - title: "Open your device"
     - title: "Sign in"
-    - title: "Start work"
+    - title: "Start working"
   platforms: ["Windows", "macOS", "mobile devices"]
   proof_label: "Technician time for setup"
   proof_before: "Before: ~2 h per computer"
