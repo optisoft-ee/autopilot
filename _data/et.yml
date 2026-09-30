@@ -3,7 +3,7 @@
 
 meta:
   locale: "et_EE"
-  title: "DayOne – tööarvuti seadistub ise, kui töötaja sisse logib"
+  title: "DayOne – arvutite automaatne seadistamine"
   description: "DayOne seadistab ettevõtte arvutid, Macid ja nutiseadmed Microsoft Intune’iga automaatselt. Töötaja avab arvuti, logib töömeiliga sisse ja umbes poole tunni pärast saab tööd alustada."
   og_title: "DayOne – sinu seade, sinu esimene tööpäev"
   og_description: "Ava seade, logi sisse, alusta tööd. Piloodis 81 arvutiga: varem ~2 h tehniku tööd iga arvuti kohta, nüüd ~15 min kogu seadmepargi peale."
