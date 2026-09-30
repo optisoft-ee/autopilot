@@ -2,7 +2,7 @@
 
 meta:
   locale: "en_GB"
-  title: "DayOne – a work computer that sets itself up when your employee signs in"
+  title: "DayOne – automatic computer setup for businesses"
   description: "DayOne sets up your company’s computers, Macs and mobile devices automatically with Microsoft Intune. Open the computer, sign in with your work email and start working in about half an hour."
   og_title: "DayOne – your device, your first working day"
   og_description: "Open, sign in, start working. In a pilot with 81 computers: before, ~2 h of technician time per computer; now ~15 min for the whole fleet."
