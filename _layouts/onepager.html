@@ -79,13 +79,17 @@ p{margin:0}
 .fsteps li:not(:last-child)::after{content:"";position:absolute;top:44px;left:calc(50% + 52px);right:calc(-50% + 52px);height:2px;background:var(--line)}
 .ic{width:88px;height:88px;border-radius:50%;background:var(--accent-soft);display:flex;align-items:center;justify-content:center}
 .fsteps b{font-weight:600;font-size:17px;line-height:1.3}
-.fsteps b span{color:var(--accent);margin-right:4px}
+.fsteps b span{color:var(--accent)}
 .fsteps small{display:block;font-size:14px;color:var(--muted);line-height:1.4;margin-top:2px}
 .platforms{display:flex;justify-content:center;flex-wrap:wrap;gap:8px 20px;padding-top:20px;border-top:1px solid var(--line-2);font-size:15px;color:var(--ink-2)}
 .platforms span{display:inline-flex;align-items:center;gap:8px}
 .platforms span:not(:last-child)::after{content:"·";margin-left:12px;color:var(--muted)}
-.proof{display:flex;gap:12px;align-items:center;padding:14px 16px;border-radius:12px;background:var(--dark);color:#fff;font-size:15px;line-height:1.4;text-decoration:none}
-.proof strong{font-family:var(--display);color:var(--mint);white-space:nowrap;font-size:17px}
+.proof{display:flex;flex-direction:column;gap:4px;padding:16px 20px;border-radius:12px;background:var(--dark);color:#fff;font-size:15px;line-height:1.4;text-decoration:none}
+.proof .pl{font-size:15px;color:#fff}
+.proof .pv{display:flex;flex-direction:column;gap:2px;margin:2px 0}
+.proof s{text-decoration:none;font-family:var(--display);font-weight:600;font-size:17px;color:#8A929A;line-height:1.3}
+.proof strong{font-family:var(--display);color:var(--mint);font-size:22px;line-height:1.25}
+.proof small{font-size:13px;color:var(--on-dark-muted)}
 .proof:hover{background:#232A31}
 
 /* results */
@@ -104,6 +108,7 @@ p{margin:0}
 .pk small{display:block;margin-top:4px;font-size:15px;color:var(--on-dark-muted);line-height:1.5}
 .pb{font-family:var(--display);font-size:clamp(22px,2.2vw,30px);font-weight:600;color:#8A929A}
 .pa{font-family:var(--display);font-size:clamp(26px,2.6vw,36px);font-weight:700;color:var(--mint)}
+.pb small,.pa small{display:block;font-family:var(--body);font-size:14px;font-weight:500;color:var(--on-dark-muted);margin-top:2px;white-space:normal}
 .results .note{margin-top:28px;max-width:760px;font-size:15px;line-height:1.55;color:var(--on-dark-muted)}
 
 /* change */
@@ -198,17 +203,19 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   body{font-size:16px}
   .nav .wrap{min-height:64px}
   .logo{font-size:23px}
-  .hero{padding-top:28px;gap:28px}
+  .hero{padding-top:20px;gap:22px}
   .hero-copy{gap:18px}
   .hero h1{font-size:clamp(34px,10.5vw,44px)}
   .hero .lead{font-size:17px}
   .actions .btn{width:100%}
-  .flow{padding:0;border:0;background:none;gap:20px}
-  .ic{width:68px;height:68px}
+  .flow{padding:0;border:0;background:none;gap:16px}
+  .ic{width:60px;height:60px}
   .ic svg{width:30px;height:30px}
-  .fsteps li:not(:last-child)::after{top:34px;left:calc(50% + 40px);right:calc(-50% + 40px)}
+  .fsteps li:not(:last-child)::after{top:30px;left:calc(50% + 36px);right:calc(-50% + 36px)}
   .fsteps b{font-size:15.5px}
   .fsteps small{font-size:13px}
+  .proof strong{font-size:19px}
+  .proof s{font-size:15px}
   .platforms{font-size:14px;gap:6px 8px;flex-wrap:nowrap}
   .platforms span{gap:6px;white-space:nowrap}
   .platforms span:not(:last-child)::after{margin-left:6px}
@@ -258,7 +265,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       {%- for s in t.hero.steps %}
       <li>
         <span class="ic">{% case forloop.index %}{% when 1 %}<svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#15191E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="8" width="14" height="9" rx="1.5"/><path d="M3 20h18"/><path d="M12 2v3M7.5 3.5l1.2 2M16.5 3.5l-1.2 2" stroke="#0B6B68"/></svg>{% when 2 %}<svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#15191E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="8" r="4"/><path d="M4 21c0-4 3.5-6 7-6s7 2 7 6"/><path d="M18 7l2-1.5M19 11h2.5" stroke="#0B6B68"/></svg>{% else %}<svg width="38" height="38" viewBox="0 0 24 24" fill="none" stroke="#15191E" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7" stroke="#0B6B68" stroke-width="2"/></svg>{% endcase %}</span>
-        <div><b><span>{{ forloop.index }}.</span>{{ s.title }}</b><small>{{ s.text }}</small></div>
+        <div><b><span>{{ forloop.index }}.</span> {{ s.title }}</b></div>
       </li>
       {%- endfor %}
     </ol>
@@ -267,7 +274,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       <span><svg width="18" height="18" viewBox="0 0 384 512" fill="#15191E" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>{{ t.hero.platforms[1] }}</span>
       <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15191E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></svg>{{ t.hero.platforms[2] }}</span>
     </div>
-    <a class="proof" href="#tulemus"><strong>{{ t.hero.proof_value }}</strong><span>{{ t.hero.proof_text }}</span></a>
+    <a class="proof" href="#tulemus"><span class="pl">{{ t.hero.proof_label }}</span><span class="pv"><s>{{ t.hero.proof_before }}</s><strong>{{ t.hero.proof_after }}</strong></span><small>{{ t.hero.proof_note }}</small></a>
   </div>
 </section>
 
@@ -287,7 +294,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       {%- for row in t.results.rows %}
       <div class="prow">
         <div class="pk"><b>{{ row.title }}</b><small>{{ row.text }}</small></div>
-        <span class="pb">{{ row.before }}</span><span class="pa">{{ row.after }}</span>
+        <span class="pb">{{ row.before }}{% if row.before_note %}<small>{{ row.before_note }}</small>{% endif %}</span><span class="pa">{{ row.after }}{% if row.after_note %}<small>{{ row.after_note }}</small>{% endif %}</span>
       </div>
       {%- endfor %}
     </div>
@@ -417,7 +424,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   function fmt(n){return Math.round(n).toLocaleString(loc).replace(/ | /g,' ')}
   function calc(){
     var nw=v('c-new'),od=v('c-old'),rate=v('c-rate');
-    var h=nw*1.75+od*1.25, m=h*rate;
+    var h=Math.max(0,nw*2-(nw>0?0.25:0))+od*1.25, m=h*rate;
     document.getElementById('o-h').textContent=fmt(h);
     document.getElementById('o-m').textContent=fmt(m)+' €';
     var body=c.dataset.body.replace('{new}',fmt(nw)).replace('{old}',fmt(od)).replace('{hours}',fmt(h));
