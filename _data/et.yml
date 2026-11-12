@@ -3,17 +3,17 @@
 
 meta:
   locale: "et_EE"
-  title: "DayOne – arvutite automaatne seadistamine"
-  description: "DayOne seadistab ettevõtte arvutid, Macid ja nutiseadmed Microsoft Intune’iga automaatselt. Töötaja avab arvuti, logib töömeiliga sisse ja umbes poole tunni pärast saab tööd alustada."
-  og_title: "DayOne – sinu seade, sinu esimene tööpäev"
+  title: "1Day – arvutite automaatne seadistamine"
+  description: "1Day seadistab ettevõtte arvutid, Macid ja nutiseadmed Microsoft Intune’iga automaatselt. Töötaja avab arvuti, logib töömeiliga sisse ja umbes poole tunni pärast saab tööd alustada."
+  og_title: "1Day – sinu seade, sinu esimene tööpäev"
   og_description: "Ava seade, logi sisse, alusta tööd. Piloodis 81 arvutiga: varem ~2 h tehniku tööd iga arvuti kohta, nüüd ~15 min kogu seadmepargi peale."
   og_image: "/og-image.png"
   ld_description: "Arvutite ja nutiseadmete automaatne seadistamine Microsoft Intune’i ja Windows Autopiloti abil."
 
-mailto: "mailto:hello@autopilot.ee?subject=DayOne%20%E2%80%93%20meie%20seadmepark&body=Tere%21%0D%0A%0D%0ASooviksime%20r%C3%A4%C3%A4kida%20oma%20seadmepargist.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A"
+mailto: "mailto:hello@autopilot.ee?subject=1Day%20%E2%80%93%20meie%20seadmepark&body=Tere%21%0D%0A%0D%0ASooviksime%20r%C3%A4%C3%A4kida%20oma%20seadmepargist.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A"
 
 nav:
-  home_label: "DayOne avalehele"
+  home_label: "1Day avalehele"
   menu_label: "Peamenüü"
   menu_open: "Ava menüü"
   results: "Tulemused"
@@ -72,7 +72,7 @@ results:
 change:
   eyebrow: "Mis muutub"
   title: "Osa tööd kaob, osa automatiseerub, osa jääb"
-  lead: "Automaatika ei tee kõike. Nii näeb välja tööjaotus pärast DayOne’i kasutuselevõttu."
+  lead: "Automaatika ei tee kõike. Nii näeb välja tööjaotus pärast 1Day kasutuselevõttu."
   columns:
     - title: "Kaob"
       items:
@@ -116,7 +116,7 @@ calc:
   out_money: "Tehniku aja väärtus aastas"
   note: "Arvestus: käsitsi kulub tehnikul ~2 h iga uue arvuti kohta, Autopilotiga ~15 min kogu pargi peale. Vana arvuti puhastamisel säästab tehnik ~1 h 15 min arvuti kohta. Tulemus on indikatiivne ega sisalda teenuse hinda."
   cta: "Räägime sinu seadmepargist"
-  mail_subject: "DayOne – meie seadmepark"
+  mail_subject: "1Day – meie seadmepark"
   mail_body: "Tere!\n\nArvutasin lehel ajavõidu: {new} uut arvutit ja {old} lahkuja arvutit aastas, umbes {hours} tundi tehniku aega.\n\nTöötajate arv: \nSeadmed (Windows / Mac / iPad / telefon): \nMicrosoft 365 pakett: \nSobivad ajad: \n"
 
 start:
@@ -128,7 +128,7 @@ start:
     - title: "Vestlus"
       time: "30 min"
       you: "Räägid, mitu seadet sul on ja milline Microsoft 365 pakett on kasutusel."
-      get: "Hinnang, kas DayOne sobib, ja hinnapakkumine."
+      get: "Hinnang, kas 1Day sobib, ja hinnapakkumine."
     - title: "Ettevalmistus"
       time: "1–2 nädalat"
       you: "Annad administraatori ligipääsu ja programmide nimekirja."
@@ -164,4 +164,4 @@ contact:
   mail_cta: "Räägime seadmepargist →"
   fine: "Kirjas olevaid andmeid kasutame ainult sinuga ühenduse võtmiseks."
 
-footer: "DayOne"
+footer: "1Day OÜ · registrikood 17646485 · hello@autopilot.ee"

@@ -2,17 +2,17 @@
 
 meta:
   locale: "en_GB"
-  title: "DayOne – automatic computer setup for businesses"
-  description: "DayOne sets up your company’s computers, Macs and mobile devices automatically with Microsoft Intune. Open the computer, sign in with your work email and start working in about half an hour."
-  og_title: "DayOne – your device, your first working day"
+  title: "1Day – automatic computer setup for businesses"
+  description: "1Day sets up your company’s computers, Macs and mobile devices automatically with Microsoft Intune. Open the computer, sign in with your work email and start working in about half an hour."
+  og_title: "1Day – your device, your first working day"
   og_description: "Open, sign in, start working. In a pilot with 81 computers: before, ~2 h of technician time per computer; now ~15 min for the whole fleet."
   og_image: "/og-image-en.png"
   ld_description: "Automatic computer and mobile device setup with Microsoft Intune and Windows Autopilot."
 
-mailto: "mailto:hello@autopilot.ee?subject=DayOne%20%E2%80%93%20our%20devices&body=Hi%2C%0D%0A%0D%0AWe%20would%20like%20to%20talk%20about%20our%20devices.%0D%0A%0D%0ANumber%20of%20employees%3A%20%0D%0ADevices%20%28Windows%20/%20Mac%20/%20iPad%20/%20phone%29%3A%20%0D%0AMicrosoft%20365%20plan%3A%20%0D%0ATimes%20that%20suit%20us%3A%20%0D%0A"
+mailto: "mailto:hello@autopilot.ee?subject=1Day%20%E2%80%93%20our%20devices&body=Hi%2C%0D%0A%0D%0AWe%20would%20like%20to%20talk%20about%20our%20devices.%0D%0A%0D%0ANumber%20of%20employees%3A%20%0D%0ADevices%20%28Windows%20/%20Mac%20/%20iPad%20/%20phone%29%3A%20%0D%0AMicrosoft%20365%20plan%3A%20%0D%0ATimes%20that%20suit%20us%3A%20%0D%0A"
 
 nav:
-  home_label: "DayOne home"
+  home_label: "1Day home"
   menu_label: "Main menu"
   menu_open: "Open menu"
   results: "Results"
@@ -71,7 +71,7 @@ results:
 change:
   eyebrow: "What changes"
   title: "Some work disappears, some is automated, some stays"
-  lead: "Automation doesn’t do everything. This is how the work is split once DayOne is in place."
+  lead: "Automation doesn’t do everything. This is how the work is split once 1Day is in place."
   columns:
     - title: "Disappears"
       items:
@@ -115,7 +115,7 @@ calc:
   out_money: "Value of technician time per year"
   note: "Calculation: manual setup takes ~2 h of technician time per new computer; with Autopilot it is ~15 min for the whole fleet. Each wiped computer saves ~1 h 15 min. The result is indicative and does not include the service fee."
   cta: "Let’s talk about your devices"
-  mail_subject: "DayOne – our devices"
+  mail_subject: "1Day – our devices"
   mail_body: "Hi,\n\nI used the calculator: {new} new computers and {old} leavers’ computers per year, about {hours} hours of technician time.\n\nNumber of employees: \nDevices (Windows / Mac / iPad / phone): \nMicrosoft 365 plan: \nTimes that suit us: \n"
 
 start:
@@ -127,7 +127,7 @@ start:
     - title: "Conversation"
       time: "30 min"
       you: "Tell us how many devices you have and which Microsoft 365 plan you use."
-      get: "An assessment of whether DayOne fits, and a quote."
+      get: "An assessment of whether 1Day fits, and a quote."
     - title: "Preparation"
       time: "1–2 weeks"
       you: "Give us admin access and a list of the apps you use."
@@ -163,4 +163,4 @@ contact:
   mail_cta: "Talk about your devices →"
   fine: "We only use the details in your email to contact you."
 
-footer: "DayOne"
+footer: "1Day OÜ · registry code 17646485 · hello@autopilot.ee"
