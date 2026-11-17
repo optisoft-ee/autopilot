@@ -7,7 +7,8 @@ meta:
   description: "1Day seadistab ettevõtte arvutid, Macid ja nutiseadmed Microsoft Intune’iga automaatselt. Töötaja avab arvuti, logib töömeiliga sisse ja umbes poole tunni pärast saab tööd alustada."
   og_title: "1Day – sinu seade, sinu esimene tööpäev"
   og_description: "Ava seade, logi sisse, alusta tööd. Piloodis 81 arvutiga: varem ~2 h tehniku tööd iga arvuti kohta, nüüd ~15 min kogu seadmepargi peale."
-  og_image: "/og-image.png"
+  og_image: "/og-image.png?v=2"
+  og_image_alt: "1Day – tööseadme seadistamine. Sinu seade, sinu esimene tööpäev: ava seade, logi sisse, alusta tööd. IT-tehniku töö varem ~2 h arvuti kohta, nüüd ~15 min kogu pargi peale."
   ld_description: "Arvutite ja nutiseadmete automaatne seadistamine Microsoft Intune’i ja Windows Autopiloti abil."
 
 mailto: "mailto:hello@1day.ee?subject=1Day%20%E2%80%93%20meie%20seadmepark&body=Tere%21%0D%0A%0D%0ASooviksime%20r%C3%A4%C3%A4kida%20oma%20seadmepargist.%0D%0A%0D%0AT%C3%B6%C3%B6tajate%20arv%3A%20%0D%0ASeadmed%20%28Windows%20/%20Mac%20/%20iPad%20/%20telefon%29%3A%20%0D%0AMicrosoft%20365%20pakett%3A%20%0D%0ASobivad%20ajad%3A%20%0D%0A"
