@@ -26,7 +26,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"ProfessionalService","name":"1Day","legalName":"1Day OÜ","identifier":{"@type":"PropertyValue","propertyID":"Äriregistri kood","value":"17646485"},"url":"{{ base }}{{ page.url }}","email":"hello@autopilot.ee","description":{{ t.meta.ld_description | jsonify }},"areaServed":"EE"}
+{"@context":"https://schema.org","@type":"ProfessionalService","name":"1Day","legalName":"1Day OÜ","identifier":{"@type":"PropertyValue","propertyID":"Äriregistri kood","value":"17646485"},"url":"{{ base }}{{ page.url }}","email":"hello@1day.ee","description":{{ t.meta.ld_description | jsonify }},"areaServed":"EE"}
 </script>
 <style>
 :root{
@@ -395,7 +395,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     <a class="mailcard" href="{{ t.mailto | replace: '&', '&amp;' }}">
       <span class="l">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
-        <span><small>{{ t.contact.mail_label }}</small><strong>hello@autopilot.ee</strong></span>
+        <span><small>{{ t.contact.mail_label }}</small><strong>hello@1day.ee</strong></span>
       </span>
       <span class="go">{{ t.contact.mail_cta }}</span>
     </a>
@@ -428,7 +428,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     document.getElementById('o-h').textContent=fmt(h);
     document.getElementById('o-m').textContent=fmt(m)+' €';
     var body=c.dataset.body.replace('{new}',fmt(nw)).replace('{old}',fmt(od)).replace('{hours}',fmt(h));
-    document.getElementById('o-mail').href='mailto:hello@autopilot.ee?subject='+encodeURIComponent(c.dataset.subject)+'&body='+encodeURIComponent(body);
+    document.getElementById('o-mail').href='mailto:hello@1day.ee?subject='+encodeURIComponent(c.dataset.subject)+'&body='+encodeURIComponent(body);
   }
   ids.forEach(function(id){
     var n=document.getElementById(id),r=document.getElementById(id+'-r');
