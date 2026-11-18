@@ -184,18 +184,12 @@ security:
     - title: "Ainult vajalikud õigused"
       text: "Kasutame seadmehalduseks vajalikke administraatorirolle, näiteks Intune’i administraatori rolli. Väldime põhjendamatult ulatuslikke õigusi."
     - title: "Piiratud ligipääs"
-      text: "Võimaluse korral kasutame ajaliselt piiratud ligipääsu (GDAP või Entra PIM). Õigused antakse vastavalt töö vajadusele."
+      text: "Võimaluse korral kasutame ajaliselt piiratud ligipääsu: GDAP-i (rollid ja kestuse kinnitad sina) või Entra PIM-i (õigused kehtivad ainult töö ajal). Õigused antakse vastavalt töö vajadusele."
     - title: "Jälgitavad muudatused"
       text: "Haldustoimingud on jälgitavad Intune’i auditilogis. Olulisemad seadistusmuudatused dokumenteerime eraldi muudatuste logis."
     - title: "Sinu keskkond jääb sulle"
       text: "Lepingu lõppedes eemaldatakse meie ligipääsud. Loodud profiilid, reeglid ja seadistused jäävad sinu Microsoft 365 keskkonda."
   fine: "Me ei vaja seadmete haldamiseks ligipääsu töötajate kirjadele ega failide sisule. Meie töö piirdub kokkulepitud seadmehalduse ülesannetega."
-  notes_label: "Mõisted"
-  notes:
-    - term: "GDAP (Granular Delegated Admin Privileges)"
-      text: "Microsofti partneriprogrammi kaudu antav piiratud ligipääs. Sina kinnitad, milliseid rolle partner saab ja kui kauaks, ning saad ligipääsu igal ajal ise lõpetada."
-    - term: "Entra PIM (Privileged Identity Management)"
-      text: "Microsoft Entra ID funktsioon, millega administraatoriõigused aktiveeritakse ainult vajaduse korral ja piiratud ajaks. Iga aktiveerimine logitakse. Nõuab Microsoft Entra ID P2 litsentsi, mis sisaldub näiteks Microsoft 365 E5 paketis."
 
 pricing:
   eyebrow: "Hind"

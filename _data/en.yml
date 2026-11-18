@@ -183,18 +183,12 @@ security:
     - title: "Only the rights needed"
       text: "We use the admin roles device management requires, such as the Intune Administrator role. We avoid unnecessarily broad rights."
     - title: "Limited access"
-      text: "Where possible, we use time-limited access (GDAP or Entra PIM). Rights are granted as the work requires."
+      text: "Where possible, we use time-limited access: GDAP (you approve the roles and duration) or Entra PIM (rights are active only while we work). Rights are granted as the work requires."
     - title: "Traceable changes"
       text: "Admin actions are traceable in the Intune audit log. We also document significant configuration changes in a separate change log."
     - title: "Your environment stays yours"
       text: "When the contract ends, our access is removed. The profiles, policies and settings we created stay in your Microsoft 365 environment."
   fine: "We don’t need access to employees’ email or file contents to manage devices. Our work is limited to the agreed device management tasks."
-  notes_label: "Terms"
-  notes:
-    - term: "GDAP (Granular Delegated Admin Privileges)"
-      text: "Limited access granted through Microsoft’s partner programme. You approve which roles the partner gets and for how long, and you can end the access yourself at any time."
-    - term: "Entra PIM (Privileged Identity Management)"
-      text: "A Microsoft Entra ID feature that activates admin rights only when needed and for a limited time. Every activation is logged. Requires a Microsoft Entra ID P2 licence, included for example in Microsoft 365 E5."
 
 pricing:
   eyebrow: "Pricing"
