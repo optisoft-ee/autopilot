@@ -4,7 +4,7 @@ meta:
   locale: "en_GB"
   title: "1Day – automatic computer setup and device management"
   description: "1Day sets up Microsoft Intune and Windows Autopilot and keeps managing them. New computers ship from the vendor straight to the employee and are ready for work in about half an hour."
-  og_title: "1Day – new hires start working on day one"
+  og_title: "1Day – automatic computer setup and device management"
   og_description: "Initial setup and ongoing device management with Microsoft Intune. In a pilot with 81 computers: ready for work ~30 min after sign-in, with no manual preparation by IT."
   og_image: "/og-image-en.png?v=2"
   og_image_alt: "1Day – work device setup. Your device, your first working day: open your device, sign in, start working. Technician time before ~2 h per computer, now ~15 min for the whole fleet."
@@ -26,7 +26,7 @@ nav:
 
 hero:
   eyebrow: "Computer setup and device management"
-  title: "New hires start working <br>on day one."
+  title: "New computers ready for work <br>without manual setup."
   lead: "1Day sets up Intune and Windows Autopilot in your Microsoft 365 environment and keeps managing them. Computers ship from the vendor straight to the employee. Apps, security settings and the work profile install automatically at sign-in, so IT doesn’t need to prepare devices by hand."
   cta: "Check if it pays off"
   secondary: "What 1Day does for you"
@@ -96,8 +96,8 @@ results:
 
 change:
   eyebrow: "What changes"
-  title: "Some work disappears, some is automated, some stays"
-  lead: "Automation doesn’t do everything. This is how the work is split once 1Day is in place."
+  title: "How the work is split after rollout"
+  lead: "Below you can see which work disappears, what happens automatically and what 1Day does."
   columns:
     - title: "Disappears"
       items:
