@@ -1,6 +1,7 @@
 <!doctype html>
 {%- assign t = site.data[page.lang] -%}
 {%- assign base = "https://1day.ee" %}
+{%- assign price = site.data.price -%}
 <html lang="{{ page.lang }}">
 <head>
 <meta charset="utf-8">
@@ -98,7 +99,7 @@ p{margin:0}
 .results{background:var(--dark);color:#fff}
 .results .eyebrow{color:var(--mint)}
 .results .h2{color:#fff}
-.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-bottom:40px}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-bottom:40px}
 .fact{padding:20px 24px;border:1px solid #2C333A;border-radius:14px}
 .fact small{display:block;font-size:14px;color:var(--on-dark-muted);margin-bottom:4px}
 .fact b{font-family:var(--display);font-weight:600;font-size:clamp(18px,1.6vw,22px);line-height:1.3}
@@ -166,7 +167,37 @@ p{margin:0}
 .plist h3{font-size:20px;font-weight:600;line-height:1.25}
 .plist p{font-size:15.5px;color:var(--ink-2)}
 
+/* service */
+.svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.svc-part{padding:28px;border-radius:16px;border:1px solid var(--line);background:var(--ground);display:flex;flex-direction:column;gap:14px}
+.svc-part:nth-child(2){background:var(--accent-tint);border-color:#D3E8E5}
+.svc-top{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.svc-top h3{font-size:24px;font-weight:600}
+.svc-top .time{font-size:13px;font-weight:600;padding:4px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.svc-part ul{margin:0;padding:0;list-style:none}
+.svc-part li{padding:11px 0 11px 28px;border-top:1px solid var(--line-2);position:relative;font-size:16px;line-height:1.45;color:var(--ink-2)}
+.svc-part li::before{content:"";position:absolute;left:4px;top:18px;width:12px;height:7px;border-left:2px solid var(--accent);border-bottom:2px solid var(--accent);transform:rotate(-45deg)}
+.svc-bound{margin-top:24px;font-size:16px;color:var(--ink-2);max-width:760px}
+.sec-fine{margin-top:24px;font-size:15px;color:var(--muted);max-width:760px}
+.price{font-family:var(--display);font-weight:700;font-size:26px;color:var(--accent);line-height:1.2}
+.pmin{display:block;font-size:14px;color:var(--muted);margin-top:-6px}
+.roi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.roi .money{font-size:clamp(20px,2vw,26px)}
+.roi .neg{color:#F2A7A0}.roi .pos{color:var(--mint)}
+.out .k.sm{font-size:13px}
+.out .noprice{font-size:16px;color:var(--on-dark)}
+
 /* contact */
+.paths{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:36px}
+.path{display:flex;flex-direction:column;gap:10px;padding:24px;border:1px solid #2C333A;border-radius:14px;color:#fff;text-decoration:none;transition:border-color .15s,background .15s}
+.path:hover{border-color:var(--mint);background:#1B2026}
+.path small{font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--mint)}
+.path span{font-size:16px;color:var(--on-dark);line-height:1.45}
+.path b{margin-top:auto;font-family:var(--display);font-weight:600;font-size:17px}
+.person{margin-top:28px;padding:20px 24px;border-left:3px solid var(--mint);max-width:760px}
+.person strong{display:block;font-family:var(--display);font-size:20px}
+.person small{display:block;color:var(--mint);font-size:14px;margin:2px 0 8px}
+.person p{color:var(--on-dark);font-size:16px}
 .contact{background:var(--dark);color:#fff}
 .contact .eyebrow{color:var(--mint)}
 .contact h2{font-size:clamp(34px,4.2vw,52px);line-height:1.05;font-weight:700;margin:16px 0}
@@ -184,7 +215,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 /* responsive */
 @media (max-width:1100px){
   .hero{grid-template-columns:minmax(0,1fr)}
-  .journey,.plist{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .journey,.plist,.facts{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .paths{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:900px){
   .menu-btn{display:block}
@@ -193,7 +225,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   .nav .links a.cta{justify-content:center;margin-top:16px;border:0;color:#fff}
   .nav.open .links{display:flex}
   .nav nav{gap:8px}
-  .cols,.calc,.facts{grid-template-columns:minmax(0,1fr)}
+  .cols,.calc,.svc{grid-template-columns:minmax(0,1fr)}
   .prow{grid-template-columns:minmax(0,1fr) minmax(0,1fr);row-gap:10px}
   .prow .pk{grid-column:1 / -1}
   .phead{display:none}
@@ -221,7 +253,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   .platforms{font-size:14px;gap:6px 8px;flex-wrap:nowrap}
   .platforms span{gap:6px;white-space:nowrap}
   .platforms span:not(:last-child)::after{margin-left:6px}
-  .journey,.plist{grid-template-columns:minmax(0,1fr)}
+  .journey,.plist,.facts,.roi{grid-template-columns:minmax(0,1fr)}
   .mailcard strong{font-size:22px}
   .h2 br{display:none}
 }
@@ -238,9 +270,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     </a>
     <nav aria-label="{{ t.nav.menu_label }}">
       <div class="links" id="links">
+        <a href="#teenus">{{ t.nav.service }}</a>
         <a href="#tulemus">{{ t.nav.results }}</a>
-        <a href="#muutus">{{ t.nav.change }}</a>
-        <a href="#alustamine">{{ t.nav.start }}</a>
+        <a href="#turvalisus">{{ t.nav.security }}</a>
         <a href="#hind">{{ t.nav.pricing }}</a>
         <a class="cta" href="#arvuta">{{ t.nav.cta }}</a>
       </div>
@@ -258,7 +290,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     <p class="lead">{{ t.hero.lead }}</p>
     <div class="actions">
       <a class="btn btn-primary" href="#arvuta">{{ t.hero.cta }} <span aria-hidden="true">→</span></a>
-      <a class="link" href="#alustamine">{{ t.hero.secondary }} <span aria-hidden="true">→</span></a>
+      <a class="link" href="#teenus">{{ t.hero.secondary }} <span aria-hidden="true">→</span></a>
     </div>
   </div>
 
@@ -277,6 +309,29 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       <span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#15191E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2"/><path d="M12 18h.01"/></svg>{{ t.hero.platforms[2] }}</span>
     </div>
     <a class="proof" href="#tulemus"><span class="pl">{{ t.hero.proof_label }}</span><span class="pv"><s>{{ t.hero.proof_before }}</s><strong>{{ t.hero.proof_after }}</strong></span><small>{{ t.hero.proof_note }}</small></a>
+  </div>
+</section>
+
+<section id="teenus" class="white sec">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">{{ t.service.eyebrow }}</div>
+      <h2 class="h2">{{ t.service.title }}</h2>
+      <p class="lead">{{ t.service.lead }}</p>
+    </div>
+    <div class="svc">
+      {%- for part in t.service.parts %}
+      <div class="svc-part">
+        <div class="svc-top"><h3>{{ part.title }}</h3><span class="time">{{ part.tag }}</span></div>
+        <ul>
+          {%- for it in part.items %}
+          <li>{{ it }}</li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+    <p class="svc-bound"><strong>{{ t.service.boundary_label }}</strong> {{ t.service.boundary }}</p>
   </div>
 </section>
 
@@ -332,7 +387,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       <h2 class="h2">{{ t.calc.title }}</h2>
       <p class="lead">{{ t.calc.lead }}</p>
     </div>
-    <div class="calc" id="calc" data-lang="{{ page.lang }}" data-subject="{{ t.calc.mail_subject }}" data-body="{{ t.calc.mail_body }}" data-hours="{{ t.calc.unit_hours }}">
+    <div class="calc" id="calc" data-lang="{{ page.lang }}" data-pdev="{{ price.per_device }}" data-pmin="{{ price.min_month }}" data-psetup="{{ price.setup_from }}" data-subject="{{ t.calc.mail_subject }}" data-body="{{ t.calc.mail_body }}" data-hours="{{ t.calc.unit_hours }}">
       <div class="fields">
         <div class="field">
           <label for="c-new">{{ t.calc.in_new }}</label><small>{{ t.calc.in_new_hint }}</small>
@@ -343,6 +398,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
           <div class="row"><input type="range" id="c-old-r" min="0" max="100" value="5" aria-hidden="true" tabindex="-1"><input type="number" id="c-old" min="0" max="2000" value="5" inputmode="numeric"></div>
         </div>
         <div class="field">
+          <label for="c-dev">{{ t.calc.in_dev }}</label><small>{{ t.calc.in_dev_hint }}</small>
+          <div class="row"><input type="range" id="c-dev-r" min="1" max="300" value="40" aria-hidden="true" tabindex="-1"><input type="number" id="c-dev" min="1" max="5000" value="40" inputmode="numeric"></div>
+        </div>
+        <div class="field">
           <label for="c-rate">{{ t.calc.in_rate }}</label><small>{{ t.calc.in_rate_hint }}</small>
           <div class="row"><input type="range" id="c-rate-r" min="20" max="120" step="5" value="50" aria-hidden="true" tabindex="-1"><input type="number" id="c-rate" min="0" max="500" value="50" inputmode="numeric"></div>
         </div>
@@ -351,6 +410,16 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
         <div><div class="k">{{ t.calc.out_hours }}</div><div class="big"><span id="o-h">46</span><small>{{ t.calc.unit_hours }}</small></div></div>
         <hr>
         <div><div class="k">{{ t.calc.out_money }}</div><div class="money" id="o-m">2300 €</div></div>
+        <hr>
+        {%- if price.per_device != "" and price.setup_from != "" %}
+        <div class="roi">
+          <div><div class="k">{{ t.calc.out_cost }}</div><div class="money" id="o-c">–</div><div class="k sm">{{ t.calc.out_cost_hint }}</div></div>
+          <div><div class="k">{{ t.calc.out_net1 }}</div><div class="money" id="o-n1">–</div></div>
+          <div><div class="k">{{ t.calc.out_net2 }}</div><div class="money" id="o-n2">–</div><div class="k sm">{{ t.calc.out_net2_unit }}</div></div>
+        </div>
+        {%- else %}
+        <p class="noprice">{{ t.calc.out_noprice }}</p>
+        {%- endif %}
         <p class="fine">{{ t.calc.note }}</p>
         <a class="btn btn-primary" id="o-mail" href="{{ t.mailto | replace: '&', '&amp;' }}">{{ t.calc.cta }} <span aria-hidden="true">→</span></a>
       </div>
@@ -374,18 +443,38 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   </ol>
 </section>
 
-<section id="hind" class="white sec">
+<section id="turvalisus" class="white sec">
+  <div class="wrap">
+    <div class="head">
+      <div class="eyebrow">{{ t.security.eyebrow }}</div>
+      <h2 class="h2">{{ t.security.title }}</h2>
+      <p class="lead">{{ t.security.lead }}</p>
+    </div>
+    <div class="plist">
+      {%- for p in t.security.items %}
+      <div><h3>{{ p.title }}</h3><p>{{ p.text }}</p></div>
+      {%- endfor %}
+    </div>
+    <p class="sec-fine">{{ t.security.fine }}</p>
+  </div>
+</section>
+
+<section id="hind" class="sec">
   <div class="wrap">
     <div class="head">
       <div class="eyebrow">{{ t.pricing.eyebrow }}</div>
       <h2 class="h2">{{ t.pricing.title }}</h2>
-      <p class="lead">{{ t.pricing.lead }}</p>
+      <p class="lead">{{ t.pricing.lead }}{% if price.per_device == "" %} {{ t.pricing.lead_noprice }}{% endif %}</p>
     </div>
     <div class="plist">
       {%- for p in t.pricing.items %}
-      <div><h3>{{ p.title }}</h3><p>{{ p.text }}</p></div>
+      <div><h3>{{ p.title }}</h3>
+        {%- if p.key == "setup" and price.setup_from != "" %}<div class="price">{{ t.pricing.from }} {{ price.setup_from }} €</div>{% endif %}
+        {%- if p.key == "device" and price.per_device != "" %}<div class="price">{{ price.per_device }} € / {{ t.pricing.per_device }}</div>{% if price.min_month != "" %}<small class="pmin">{{ t.pricing.min }} {{ price.min_month }} €</small>{% endif %}{% endif %}
+        <p>{{ p.text }}</p></div>
       {%- endfor %}
     </div>
+    {%- if price.per_device != "" or price.setup_from != "" %}<p class="sec-fine">{{ t.pricing.vat }}</p>{% endif %}
   </div>
 </section>
 
@@ -394,6 +483,14 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     <div class="eyebrow">{{ t.contact.eyebrow }}</div>
     <h2>{{ t.contact.title }}</h2>
     <p class="lead">{{ t.contact.lead }}</p>
+    <div class="paths">
+      {%- for c in t.contact.paths %}
+      <a class="path" href="{{ c.href | replace: '&', '&amp;' }}"><small>0{{ forloop.index }} · {{ c.label }}</small><span>{{ c.text }}</span><b>{{ c.cta }} <span aria-hidden="true">→</span></b></a>
+      {%- endfor %}
+    </div>
+    {%- if t.contact.person.name != "" %}
+    <div class="person"><strong>{{ t.contact.person.name }}</strong><small>{{ t.contact.person.role }}</small><p>{{ t.contact.person.bio }}</p></div>
+    {%- endif %}
     <a class="mailcard" href="{{ t.mailto | replace: '&', '&amp;' }}">
       <span class="l">
         <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
@@ -421,15 +518,26 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
 
   var c=document.getElementById('calc');if(!c)return;
   var loc=c.dataset.lang==='et'?'et-EE':'en-GB';
-  var ids=['c-new','c-old','c-rate'];
+  var ids=['c-new','c-old','c-dev','c-rate'];
+  function num(x){var n=parseFloat(x);return isNaN(n)?null:n}
+  var pDev=num(c.dataset.pdev),pMin=num(c.dataset.pmin)||0,pSetup=num(c.dataset.psetup);
   function v(id){var n=parseFloat(document.getElementById(id).value);return isNaN(n)||n<0?0:n}
   function fmt(n){return Math.round(n).toLocaleString(loc).replace(/ | /g,' ')}
   function calc(){
-    var nw=v('c-new'),od=v('c-old'),rate=v('c-rate');
+    var nw=v('c-new'),od=v('c-old'),dev=v('c-dev'),rate=v('c-rate');
     var h=Math.max(0,nw*2-(nw>0?0.25:0))+od*1.25, m=h*rate;
     document.getElementById('o-h').textContent=fmt(h);
     document.getElementById('o-m').textContent=fmt(m)+' €';
-    var body=c.dataset.body.replace('{new}',fmt(nw)).replace('{old}',fmt(od)).replace('{hours}',fmt(h));
+    if(pDev!==null&&pSetup!==null&&document.getElementById('o-c')){
+      var year=Math.max(pDev*dev,pMin)*12, first=pSetup+year;
+      document.getElementById('o-c').textContent=fmt(first)+' €';
+      [['o-n1',m-first],['o-n2',m-year]].forEach(function(x){
+        var el=document.getElementById(x[0]);
+        el.textContent=(x[1]>=0?'+':'−')+fmt(Math.abs(x[1]))+' €';
+        el.className='money '+(x[1]>=0?'pos':'neg');
+      });
+    }
+    var body=c.dataset.body.replace('{new}',fmt(nw)).replace('{old}',fmt(od)).replace('{dev}',fmt(dev)).replace('{hours}',fmt(h));
     document.getElementById('o-mail').href='mailto:hello@1day.ee?subject='+encodeURIComponent(c.dataset.subject)+'&body='+encodeURIComponent(body);
   }
   ids.forEach(function(id){
