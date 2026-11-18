@@ -183,7 +183,7 @@ security:
     - title: "Only the rights needed"
       text: "We use the admin roles device management requires, such as the Intune Administrator role. We avoid unnecessarily broad rights."
     - title: "Limited access"
-      text: "Where possible, we use time-limited access: GDAP (you approve the roles and duration) or Entra PIM (rights are active only while we work). Rights are granted as the work requires."
+      text: "Where possible, we use time-limited administrative access. With GDAP, you approve the requested roles and access duration. Microsoft Entra PIM allows administrator privileges to be activated for a limited period when needed. We use only the permissions required to perform the agreed tasks."
     - title: "Traceable changes"
       text: "Admin actions are traceable in the Intune audit log. We also document significant configuration changes in a separate change log."
     - title: "Your environment stays yours"

@@ -184,7 +184,7 @@ security:
     - title: "Ainult vajalikud õigused"
       text: "Kasutame seadmehalduseks vajalikke administraatorirolle, näiteks Intune’i administraatori rolli. Väldime põhjendamatult ulatuslikke õigusi."
     - title: "Piiratud ligipääs"
-      text: "Võimaluse korral kasutame ajaliselt piiratud ligipääsu: GDAP-i (rollid ja kestuse kinnitad sina) või Entra PIM-i (õigused kehtivad ainult töö ajal). Õigused antakse vastavalt töö vajadusele."
+      text: "Võimaluse korral kasutame ajaliselt piiratud administraatoriõigusi. GDAP-i puhul kinnitad sina taotletavad rollid ja ligipääsu kestuse. Entra PIM võimaldab aktiveerida administraatoriõigused piiratud ajaks, kui neid on töö tegemiseks vaja. Kasutame ainult kokkulepitud ülesannete täitmiseks vajalikke õigusi."
     - title: "Jälgitavad muudatused"
       text: "Haldustoimingud on jälgitavad Intune’i auditilogis. Olulisemad seadistusmuudatused dokumenteerime eraldi muudatuste logis."
     - title: "Sinu keskkond jääb sulle"
