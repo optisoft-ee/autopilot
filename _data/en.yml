@@ -177,18 +177,18 @@ start:
 
 security:
   eyebrow: "Security"
-  title: "Access to your environment is limited and logged"
-  lead: "Setup requires admin rights. This is how we handle them."
+  title: "Your environment. Controlled access."
+  lead: "To manage your devices, we need access to your Microsoft 365 environment. We use only the rights the work requires, and every change is traceable."
   items:
-    - title: "Only the roles needed"
-      text: "We use the roles device management needs, such as the Intune Administrator role."
-    - title: "Time-limited rights"
-      text: "Where possible, we use time-limited access (GDAP or Entra PIM) that is active only while we work."
-    - title: "Every change is logged"
-      text: "Changes are visible in the Intune audit log, and we also describe them for you in a change log."
-    - title: "Access ends with the contract"
-      text: "When the contract ends, we remove our access. Profiles and settings stay in your environment."
-  fine: "We don’t read or copy users’ files or email. We work only with device management settings in your own Microsoft 365 environment."
+    - title: "Only the rights needed"
+      text: "We use the admin roles device management requires, such as the Intune Administrator role. We avoid unnecessarily broad rights."
+    - title: "Limited access"
+      text: "Where possible, we use time-limited access (GDAP or Entra PIM). Rights are granted as the work requires."
+    - title: "Traceable changes"
+      text: "Admin actions are traceable in the Intune audit log. We also document significant configuration changes in a separate change log."
+    - title: "Your environment stays yours"
+      text: "When the contract ends, our access is removed. The profiles, policies and settings we created stay in your Microsoft 365 environment."
+  fine: "We don’t need access to employees’ email or file contents to manage devices. Our work is limited to the agreed device management tasks."
 
 pricing:
   eyebrow: "Pricing"
