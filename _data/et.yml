@@ -28,7 +28,7 @@ nav:
 hero:
   eyebrow: "Arvutite seadistus ja seadmehaldus"
   title: "Uus töötaja alustab tööd <br>esimesel päeval."
-  lead: "1Day seadistab sinu Microsoft 365 keskkonnas Intune’i ja Windows Autopiloti ning haldab neid edasi. Arvuti läheb müüjalt otse töötajale. Programmid, turvaseaded ja tööprofiil paigalduvad sisselogimisel ise ning IT ei pea ühtegi seadet käsitsi ette valmistama."
+  lead: "1Day seadistab sinu Microsoft 365 keskkonnas Intune’i ja Windows Autopiloti ning haldab neid edasi. Arvuti läheb müüjalt otse töötajale. Programmid, turvaseaded ja tööprofiil paigalduvad sisselogimisel automaatselt, seega ei pea IT seadmeid käsitsi ette valmistama."
   cta: "Arvuta, kas see tasub ära"
   secondary: "Mida 1Day sinu eest teeb"
   steps:
@@ -43,8 +43,8 @@ hero:
 
 service:
   eyebrow: "Teenus"
-  title: "Intune on tööriist. 1Day vastutab, et see töötab."
-  lead: "Intune ja Autopilot sisalduvad paljudes Microsoft 365 pakettides, aga litsents ise ei seadista ühtegi arvutit. Meie teeme selle töö ära ja hoiame seadistuse ka edaspidi töökorras."
+  title: "Mida 1Day sinu eest teeb"
+  lead: "Intune ja Autopilot sisalduvad paljudes Microsoft 365 pakettides. 1Day seadistab need sinu ettevõtte jaoks ja hoiab seadistuse edaspidi töökorras."
   parts:
     - title: "Algseadistus"
       tag: "Ühekordne"
@@ -62,7 +62,7 @@ service:
         - "Ebaõnnestunud seadistuse parandamine, kui viga on profiilis või reeglis"
         - "Muudatuste logi: iga muudatus on dokumenteeritud"
   boundary_label: "Sinule jääb:"
-  boundary: "kasutajatugi, riistvara ja erandid. Kui sul on IT-partner, töötame temaga koos, mitte tema asemel."
+  boundary: "kasutajatugi, riistvara ja erandid. Kui sul on IT-partner, töötame temaga koos."
 
 results:
   eyebrow: "Tõendus"
@@ -121,7 +121,7 @@ change:
         - title: "Profiilide ja reeglite hooldus"
           text: "Muudame seadistust, kui programmid või rollid muutuvad."
         - title: "Uuenduste ja vastavuse jälgimine"
-          text: "Märkame probleemid enne, kui kasutaja neist teatab."
+          text: "Jälgime seadmete olekut ja tegeleme kõrvalekalletega."
         - title: "Seadistusvigade parandamine"
           text: "Kasutajatugi ja erandid jäävad sinu IT-le või IT-partnerile."
   gains_label: "Mida see sulle annab:"
@@ -130,7 +130,7 @@ change:
 calc:
   eyebrow: "Tasuvus"
   title: "Arvuta, kas 1Day tasub sinu ettevõttes ära"
-  lead: "Sisesta oma numbrid. Arvutus kasutab piloodis mõõdetud aegu ja näitab ausalt ka siis, kui teenus ära ei tasu."
+  lead: "Sisesta oma numbrid. Arvutus kasutab piloodis mõõdetud aegu."
   in_new: "Uusi arvuteid aastas"
   in_new_hint: "Uued töötajad ja vahetatavad arvutid"
   in_old: "Lahkujate arvuteid aastas"
@@ -182,7 +182,7 @@ security:
   lead: "Seadistamiseks on vaja administraatoriõigusi. Nii me nendega ümber käime."
   items:
     - title: "Ainult vajalikud rollid"
-      text: "Kasutame seadmehalduseks vajalikke rolle, näiteks Intune’i administraatorit, mitte globaalse administraatori õigusi."
+      text: "Kasutame seadmehalduseks vajalikke rolle, näiteks Intune’i administraatori rolli."
     - title: "Õigused ajaliselt piiratud"
       text: "Võimalusel kasutame ajaliselt piiratud õigusi (GDAP või Entra PIM), mis kehtivad ainult töö ajal."
     - title: "Iga muudatus on logitud"
@@ -194,7 +194,7 @@ security:
 pricing:
   eyebrow: "Hind"
   title: "Hind koosneb kahest osast"
-  lead: "Algseadistus on ühekordne. Pidev haldus on kuutasu seadme kohta, mitte tehniku töötunnid."
+  lead: "Algseadistus on ühekordne. Pidev haldus on kuutasu, mis sõltub seadmete arvust."
   lead_noprice: "Täpse summa ütleme pärast esimest vestlust."
   from: "alates"
   per_device: "seade kuus"
@@ -210,12 +210,12 @@ pricing:
     - title: "Litsents eraldi"
       text: "Vaja on Intune’iga Microsoft 365 paketti, nt Business Premium või E3/E5. Kui seda pole, aitame valida."
     - title: "Lisatöö hind enne tööd"
-      text: "Näiteks uue programmi lisamine või suurem muudatus. Hinna lepime kokku enne, mitte arvel."
+      text: "Näiteks uue programmi lisamine või suurem muudatus. Hinna lepime kokku enne töö algust."
 
 contact:
   eyebrow: "Kontakt"
   title: "Vali, kuidas edasi minna."
-  lead: "Vali samm, mis sobib sinu praeguse otsusega. Iga kiri jõuab otse meieni."
+  lead: "Vali samm, mis sulle praegu sobib."
   paths:
     - label: "Alles uurin"
       text: "Arvuta, kas teenus võiks sinu ettevõttes ära tasuda."

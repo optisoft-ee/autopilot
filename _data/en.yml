@@ -27,7 +27,7 @@ nav:
 hero:
   eyebrow: "Computer setup and device management"
   title: "New hires start working <br>on day one."
-  lead: "1Day sets up Intune and Windows Autopilot in your Microsoft 365 environment and keeps managing them. Computers ship from the vendor straight to the employee. Apps, security settings and the work profile install at sign-in, and IT doesn’t prepare a single device by hand."
+  lead: "1Day sets up Intune and Windows Autopilot in your Microsoft 365 environment and keeps managing them. Computers ship from the vendor straight to the employee. Apps, security settings and the work profile install automatically at sign-in, so IT doesn’t need to prepare devices by hand."
   cta: "Check if it pays off"
   secondary: "What 1Day does for you"
   steps:
@@ -42,8 +42,8 @@ hero:
 
 service:
   eyebrow: "Service"
-  title: "Intune is a tool. 1Day makes sure it works."
-  lead: "Intune and Autopilot come with many Microsoft 365 plans, but a licence doesn’t set up a single computer. We do that work and keep the setup working from then on."
+  title: "What 1Day does for you"
+  lead: "Intune and Autopilot come with many Microsoft 365 plans. 1Day sets them up for your company and keeps the setup working from then on."
   parts:
     - title: "Initial setup"
       tag: "One-off"
@@ -61,7 +61,7 @@ service:
         - "Fixing failed setups when the cause is in a profile or policy"
         - "Change log: every change is documented"
   boundary_label: "Stays with you:"
-  boundary: "user support, hardware and exceptions. If you have an IT partner, we work with them, not instead of them."
+  boundary: "user support, hardware and exceptions. If you have an IT partner, we work with them."
 
 results:
   eyebrow: "Evidence"
@@ -120,7 +120,7 @@ change:
         - title: "Maintaining profiles and policies"
           text: "We change the setup as apps or roles change."
         - title: "Monitoring updates and compliance"
-          text: "We spot problems before users report them."
+          text: "We monitor device status and deal with deviations."
         - title: "Fixing setup errors"
           text: "User support and exceptions stay with your IT or IT partner."
   gains_label: "What you get:"
@@ -129,7 +129,7 @@ change:
 calc:
   eyebrow: "Return on investment"
   title: "Calculate whether 1Day pays off for your company"
-  lead: "Enter your numbers. The calculation uses the times measured in the pilot and shows it honestly when the service doesn’t pay off."
+  lead: "Enter your numbers. The calculation uses the times measured in the pilot."
   in_new: "New computers per year"
   in_new_hint: "New hires and replaced computers"
   in_old: "Leavers’ computers per year"
@@ -181,7 +181,7 @@ security:
   lead: "Setup requires admin rights. This is how we handle them."
   items:
     - title: "Only the roles needed"
-      text: "We use the roles device management needs, such as Intune Administrator, not Global Administrator rights."
+      text: "We use the roles device management needs, such as the Intune Administrator role."
     - title: "Time-limited rights"
       text: "Where possible, we use time-limited access (GDAP or Entra PIM) that is active only while we work."
     - title: "Every change is logged"
@@ -193,7 +193,7 @@ security:
 pricing:
   eyebrow: "Pricing"
   title: "The price has two parts"
-  lead: "Initial setup is a one-off. Ongoing management is a monthly fee per device, not technician hours."
+  lead: "Initial setup is a one-off. Ongoing management is a monthly fee based on the number of devices."
   lead_noprice: "We’ll give you the exact figure after our first conversation."
   from: "from"
   per_device: "device / month"
@@ -209,12 +209,12 @@ pricing:
     - title: "Licences separate"
       text: "You need a Microsoft 365 plan with Intune, e.g. Business Premium or E3/E5. If you don’t have one, we’ll help you choose."
     - title: "Extra work priced up front"
-      text: "For example adding a new app or a larger change. We agree the price before the work, not on the invoice."
+      text: "For example adding a new app or a larger change. We agree the price before the work starts."
 
 contact:
   eyebrow: "Contact"
   title: "Choose your next step."
-  lead: "Pick the step that fits where you are in your decision. Every email comes straight to us."
+  lead: "Pick the step that suits you now."
   paths:
     - label: "Just exploring"
       text: "Calculate whether the service could pay off for your company."
