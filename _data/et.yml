@@ -178,18 +178,18 @@ start:
 
 security:
   eyebrow: "Turvalisus"
-  title: "Ligipääs sinu keskkonnale on piiratud ja logitud"
-  lead: "Seadistamiseks on vaja administraatoriõigusi. Nii me nendega ümber käime."
+  title: "Sinu keskkond. Kontrollitud ligipääs."
+  lead: "Seadmete haldamiseks vajame ligipääsu sinu Microsoft 365 keskkonnale. Kasutame ainult tööks vajalikke õigusi ning kõik tehtud muudatused on jälgitavad."
   items:
-    - title: "Ainult vajalikud rollid"
-      text: "Kasutame seadmehalduseks vajalikke rolle, näiteks Intune’i administraatori rolli."
-    - title: "Õigused ajaliselt piiratud"
-      text: "Võimalusel kasutame ajaliselt piiratud õigusi (GDAP või Entra PIM), mis kehtivad ainult töö ajal."
-    - title: "Iga muudatus on logitud"
-      text: "Muudatused on näha Intune’i auditilogis. Lisaks kirjeldame need sinu jaoks muudatuste logis."
-    - title: "Ligipääs lõpeb lepinguga"
-      text: "Lepingu lõppedes eemaldame oma ligipääsud. Profiilid ja seadistus jäävad sinu keskkonda."
-  fine: "Kasutajate faile ja kirju me ei loe ega kopeeri. Töötame ainult seadmehalduse seadetega sinu enda Microsoft 365 keskkonnas."
+    - title: "Ainult vajalikud õigused"
+      text: "Kasutame seadmehalduseks vajalikke administraatorirolle, näiteks Intune’i administraatori rolli. Väldime põhjendamatult ulatuslikke õigusi."
+    - title: "Piiratud ligipääs"
+      text: "Võimaluse korral kasutame ajaliselt piiratud ligipääsu (GDAP või Entra PIM). Õigused antakse vastavalt töö vajadusele."
+    - title: "Jälgitavad muudatused"
+      text: "Haldustoimingud on jälgitavad Intune’i auditilogis. Olulisemad seadistusmuudatused dokumenteerime eraldi muudatuste logis."
+    - title: "Sinu keskkond jääb sulle"
+      text: "Lepingu lõppedes eemaldatakse meie ligipääsud. Loodud profiilid, reeglid ja seadistused jäävad sinu Microsoft 365 keskkonda."
+  fine: "Me ei vaja seadmete haldamiseks ligipääsu töötajate kirjadele ega failide sisule. Meie töö piirdub kokkulepitud seadmehalduse ülesannetega."
 
 pricing:
   eyebrow: "Hind"
