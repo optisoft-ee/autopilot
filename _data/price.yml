@@ -1,0 +1,6 @@
+# Hinnad mõlema keele jaoks. TÄIDA ENNE AVALDAMIST, kui ühikukulu on kontrollitud.
+# Tühi väärtus ("") = hinda lehel ei näidata ja kalkulaator näitab ainult ajavõitu.
+# Kõik summad eurodes, km-ta.
+per_device: ""   # pideva halduse kuutasu ühe seadme kohta, nt 6
+min_month: ""    # minimaalne kuutasu, nt 99
+setup_from: ""   # algseadistuse alghind, nt 990
