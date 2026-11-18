@@ -166,6 +166,11 @@ p{margin:0}
 .plist > div{display:flex;flex-direction:column;gap:10px;padding-top:20px;border-top:2px solid var(--ink)}
 .plist h3{font-size:20px;font-weight:600;line-height:1.25}
 .plist p{font-size:15.5px;color:var(--ink-2)}
+.notes{margin-top:32px;padding-top:20px;border-top:1px solid var(--line);max-width:960px}
+.notes h3{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.notes dl{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 32px}
+.notes dt{font-weight:600;font-size:15px;color:var(--ink-2)}
+.notes dd{margin:4px 0 0;font-size:14.5px;line-height:1.5;color:var(--muted)}
 .plist.two{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px}
 
 /* service */
@@ -255,6 +260,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   .platforms span{gap:6px;white-space:nowrap}
   .platforms span:not(:last-child)::after{margin-left:6px}
   .journey,.plist,.plist.two,.facts,.roi{grid-template-columns:minmax(0,1fr)}
+  .notes dl{grid-template-columns:minmax(0,1fr)}
   .mailcard strong{font-size:22px}
   .h2 br{display:none}
 }
@@ -457,6 +463,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
       {%- endfor %}
     </div>
     <p class="sec-fine">{{ t.security.fine }}</p>
+    {%- if t.security.notes %}
+    <div class="notes"><h3>{{ t.security.notes_label }}</h3><dl>{% for n in t.security.notes %}<div><dt>{{ n.term }}</dt><dd>{{ n.text }}</dd></div>{% endfor %}</dl></div>
+    {%- endif %}
   </div>
 </section>
 
