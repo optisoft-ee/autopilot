@@ -5,7 +5,7 @@ meta:
   locale: "et_EE"
   title: "1Day – arvutite automaatne seadistus ja seadmehaldus"
   description: "1Day seadistab Microsoft Intune’i ja Windows Autopiloti ning haldab neid edasi. Uus arvuti läheb müüjalt otse töötajale ja on umbes poole tunniga tööks valmis."
-  og_title: "1Day – arvutite automaatne seadistus ja seadmehaldus"
+  og_title: "1Day – uus töötaja alustab tööd esimesel päeval"
   og_description: "Algseadistus ja pidev seadmehaldus Microsoft Intune’iga. Piloodis 81 arvutiga: arvuti on töövalmis ~30 min pärast sisselogimist, IT ei valmista seadmeid käsitsi ette."
   og_image: "/og-image.png?v=2"
   og_image_alt: "1Day – tööseadme seadistamine. Sinu seade, sinu esimene tööpäev: ava seade, logi sisse, alusta tööd. IT-tehniku töö varem ~2 h arvuti kohta, nüüd ~15 min kogu pargi peale."
@@ -27,7 +27,7 @@ nav:
 
 hero:
   eyebrow: "Arvutite seadistus ja seadmehaldus"
-  title: "Uus arvuti on töövalmis <br>ilma käsitsi seadistuseta."
+  title: "Uus töötaja alustab tööd <br>esimesel päeval."
   lead: "1Day seadistab sinu Microsoft 365 keskkonnas Intune’i ja Windows Autopiloti ning haldab neid edasi. Arvuti läheb müüjalt otse töötajale. Programmid, turvaseaded ja tööprofiil paigalduvad sisselogimisel automaatselt, seega ei pea IT seadmeid käsitsi ette valmistama."
   cta: "Arvuta, kas see tasub ära"
   secondary: "Mida 1Day sinu eest teeb"
