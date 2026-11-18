@@ -166,6 +166,7 @@ p{margin:0}
 .plist > div{display:flex;flex-direction:column;gap:10px;padding-top:20px;border-top:2px solid var(--ink)}
 .plist h3{font-size:20px;font-weight:600;line-height:1.25}
 .plist p{font-size:15.5px;color:var(--ink-2)}
+.plist.two{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px}
 
 /* service */
 .svc{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
@@ -253,7 +254,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
   .platforms{font-size:14px;gap:6px 8px;flex-wrap:nowrap}
   .platforms span{gap:6px;white-space:nowrap}
   .platforms span:not(:last-child)::after{margin-left:6px}
-  .journey,.plist,.facts,.roi{grid-template-columns:minmax(0,1fr)}
+  .journey,.plist,.plist.two,.facts,.roi{grid-template-columns:minmax(0,1fr)}
   .mailcard strong{font-size:22px}
   .h2 br{display:none}
 }
@@ -464,9 +465,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
     <div class="head">
       <div class="eyebrow">{{ t.pricing.eyebrow }}</div>
       <h2 class="h2">{{ t.pricing.title }}</h2>
-      <p class="lead">{{ t.pricing.lead }}{% if price.per_device == "" %} {{ t.pricing.lead_noprice }}{% endif %}</p>
+      <p class="lead">{{ t.pricing.lead }}{% if price.per_device == "" and t.pricing.lead_noprice != "" %} {{ t.pricing.lead_noprice }}{% endif %}</p>
     </div>
-    <div class="plist">
+    <div class="plist two">
       {%- for p in t.pricing.items %}
       <div><h3>{{ p.title }}</h3>
         {%- if p.key == "setup" and price.setup_from != "" %}<div class="price">{{ t.pricing.from }} {{ price.setup_from }} €</div>{% endif %}

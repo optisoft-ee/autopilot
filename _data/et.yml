@@ -193,9 +193,9 @@ security:
 
 pricing:
   eyebrow: "Hind"
-  title: "Hind koosneb kahest osast"
-  lead: "Algseadistus on ühekordne. Pidev haldus on kuutasu, mis sõltub seadmete arvust."
-  lead_noprice: "Täpse summa ütleme pärast esimest vestlust."
+  title: "Ühekordne seadistus. Selge kuutasu."
+  lead: "Teenuse hind koosneb algseadistusest ja igakuisest seadmehaldusest. Kuutasu sõltub hallatavate seadmete arvust. Täpse pakkumise koostame pärast lühikest vestlust, kui teame sinu ettevõtte vajadusi."
+  lead_noprice: ""
   from: "alates"
   per_device: "seade kuus"
   min: "Minimaalne kuutasu"
@@ -203,14 +203,10 @@ pricing:
   items:
     - key: "setup"
       title: "Algseadistus"
-      text: "Keskkonna ülevaatus, Autopiloti ja profiilide ülesehitus ning piloot. Hind sõltub programmide ja rollide arvust."
+      text: "Vaatame üle sinu Microsoft 365 keskkonna, seadistame Windows Autopiloti ja vajalikud profiilid ning testime lahendust pilootseadmetega. Maksumus sõltub programmide ja kasutajarollide arvust."
     - key: "device"
       title: "Pidev haldus"
-      text: "Sama hind Windowsile, Macile, iPadile ja telefonile. Sisaldab profiilide hooldust, uuenduste kontrolli, vastavuse jälgimist ja seadistusvigade parandamist."
-    - title: "Litsents eraldi"
-      text: "Vaja on Intune’iga Microsoft 365 paketti, nt Business Premium või E3/E5. Kui seda pole, aitame valida."
-    - title: "Lisatöö hind enne tööd"
-      text: "Näiteks uue programmi lisamine või suurem muudatus. Hinna lepime kokku enne töö algust."
+      text: "Ühtne kuutasu seadme kohta, olgu selleks Windowsi arvuti, Mac, iPad või telefon. Hinna sees on profiilide hooldus, uuenduste kontroll, seadmete vastavuse jälgimine ja seadistusvigade parandamine."
 
 contact:
   eyebrow: "Kontakt"
