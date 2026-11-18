@@ -192,9 +192,9 @@ security:
 
 pricing:
   eyebrow: "Pricing"
-  title: "The price has two parts"
-  lead: "Initial setup is a one-off. Ongoing management is a monthly fee based on the number of devices."
-  lead_noprice: "We’ll give you the exact figure after our first conversation."
+  title: "One-off setup. A clear monthly fee."
+  lead: "The price consists of initial setup and monthly device management. The monthly fee depends on the number of managed devices. We prepare an exact quote after a short conversation, once we know your company’s needs."
+  lead_noprice: ""
   from: "from"
   per_device: "device / month"
   min: "Minimum monthly fee"
@@ -202,14 +202,10 @@ pricing:
   items:
     - key: "setup"
       title: "Initial setup"
-      text: "Environment review, building Autopilot and the profiles, and the pilot. The price depends on the number of apps and roles."
+      text: "We review your Microsoft 365 environment, set up Windows Autopilot and the profiles you need, and test the solution on pilot devices. The cost depends on the number of apps and user roles."
     - key: "device"
       title: "Ongoing management"
-      text: "Same price for Windows, Mac, iPad and phones. Covers profile maintenance, update checks, compliance monitoring and fixing setup errors."
-    - title: "Licences separate"
-      text: "You need a Microsoft 365 plan with Intune, e.g. Business Premium or E3/E5. If you don’t have one, we’ll help you choose."
-    - title: "Extra work priced up front"
-      text: "For example adding a new app or a larger change. We agree the price before the work starts."
+      text: "One monthly fee per device, whether it’s a Windows computer, Mac, iPad or phone. It covers profile maintenance, update checks, device compliance monitoring and fixing setup errors."
 
 contact:
   eyebrow: "Contact"
