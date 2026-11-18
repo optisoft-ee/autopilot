@@ -30,7 +30,7 @@ hero:
   title: "Uus töötaja alustab tööd <br>esimesel päeval."
   lead: "1Day seadistab sinu Microsoft 365 keskkonnas Intune’i ja Windows Autopiloti ning haldab neid edasi. Arvuti läheb müüjalt otse töötajale. Programmid, turvaseaded ja tööprofiil paigalduvad sisselogimisel ise ning IT ei pea ühtegi seadet käsitsi ette valmistama."
   cta: "Arvuta, kas see tasub ära"
-  secondary: "Mille eest 1Dayle maksad"
+  secondary: "Mida 1Day sinu eest teeb"
   steps:
     - title: "Ava seade"
     - title: "Logi sisse"

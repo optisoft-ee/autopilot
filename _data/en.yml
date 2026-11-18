@@ -29,7 +29,7 @@ hero:
   title: "New hires start working <br>on day one."
   lead: "1Day sets up Intune and Windows Autopilot in your Microsoft 365 environment and keeps managing them. Computers ship from the vendor straight to the employee. Apps, security settings and the work profile install at sign-in, and IT doesn’t prepare a single device by hand."
   cta: "Check if it pays off"
-  secondary: "What you pay 1Day for"
+  secondary: "What 1Day does for you"
   steps:
     - title: "Open your device"
     - title: "Sign in"
