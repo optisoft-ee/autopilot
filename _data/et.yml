@@ -67,12 +67,11 @@ service:
 results:
   eyebrow: "Tõendus"
   title: "Mida me piloodis mõõtsime"
-  # Kliendi nimi ja valdkond lisatakse alles pärast kliendiga uuesti kinnitamist.
   facts:
     - k: "Valim"
       v: "81 arvutit"
-    - k: "Organisatsioon"
-      v: "Suurettevõte"
+    - k: "Klient"
+      v: "Elenger"
     - k: "Käsitsi protsess"
       v: "8 päeva (mediaan)"
     - k: "Võrdlus"

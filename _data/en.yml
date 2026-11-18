@@ -66,12 +66,11 @@ service:
 results:
   eyebrow: "Evidence"
   title: "What we measured in the pilot"
-  # Client name and sector are added only after re-confirming with the client.
   facts:
     - k: "Sample"
       v: "81 computers"
-    - k: "Organisation"
-      v: "Large enterprise"
+    - k: "Client"
+      v: "Elenger"
     - k: "Manual process"
       v: "8 days (median)"
     - k: "Comparison"
